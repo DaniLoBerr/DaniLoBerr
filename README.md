@@ -1,181 +1,237 @@
 # Hi, I'm Daniel López Berrocal 👋
 
-### QA Software Tester | Python Backend Developer in Progress
+### Backend Developer | Python · FastAPI · PostgreSQL · Docker
 
-I'm a QA Software Tester with hands-on experience testing web applications and software products in a startup environment.
+I'm a Backend Developer focused on building modern, maintainable and scalable web applications with **Python and FastAPI**.
 
-My current work focuses on manual, functional, regression and API testing, using tools such as **Postman, SQL and Chrome DevTools**. I've also had practical exposure to **FastAPI backend code**, which has strengthened my interest in backend engineering.
+My expertise covers the development of **REST APIs, database-driven applications, asynchronous services, authentication systems and containerized applications**, with a strong emphasis on automated testing, clean architecture, code quality and maintainability.
 
-Alongside my professional QA experience, I'm building my skills in **Python, FastAPI, PostgreSQL, SQLAlchemy and Docker**, with the goal of progressively transitioning into **Backend Engineering** and eventually **Cloud, DevOps and SRE**.
-
----
-
-## 🧭 Current Focus
-
-I'm currently focused on:
-
-- 🐍 Python backend development
-- ⚡ FastAPI and REST APIs
-- 🗄️ PostgreSQL and SQL
-- 🧪 Automated testing with pytest
-- 🐳 Docker and containerization
-- 🔧 Git, GitHub and development workflows
-- 🏗️ Software architecture and clean code
-- ☁️ Building a foundation in Cloud and DevOps
-
-My current main project is an **Expense Tracker API**, where I'm applying these concepts to build a complete backend application from the ground up.
+I'm particularly interested in backend systems, distributed applications, asynchronous programming and the engineering practices required to build reliable software.
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 Backend Development
 
-### Backend
+My main backend stack is built around the Python ecosystem:
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat)
+- **Python 3**
+- **FastAPI**
+- **Starlette**
+- **Pydantic**
+- **Uvicorn**
+- **ASGI**
+- `async/await`
+- `asyncio`
 
-### Databases
+I build modular backend applications using modern Python development practices, dependency injection and separation of concerns.
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat)
+---
 
-### Testing & QA
+## 🔌 APIs & Web Services
 
-![Pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat&logo=pytest&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
+Experienced in designing and developing modern HTTP APIs using:
 
-- Manual Testing
-- Functional Testing
-- Regression Testing
-- API Testing
-- Test Case Design
-- Bug Reporting
-- Defect Reproduction
+- REST API design
+- HTTP
+- JSON
+- OpenAPI
+- Swagger UI
+- ReDoc
+- Request/response validation
+- FastAPI Dependency Injection
+- Middleware
+- Background Tasks
+- Lifespan Events
+- CORS
+- WebSockets
+
+I focus on building APIs that are well-structured, documented, validated and easy to test and maintain.
+
+---
+
+## 🗄️ Databases & Persistence
+
+My database stack is centered around relational databases and SQL-based backend applications:
+
+- **PostgreSQL**
+- **SQLAlchemy**
+- **Alembic**
+- SQL
+- Relational database design
+- ORM-based persistence
+- Database migrations
+
+I use SQLAlchemy for database access and Alembic for controlled schema evolution and migrations.
+
+---
+
+## 🧪 Testing & Quality
+
+Testing is an integral part of my backend development workflow.
+
+### Testing stack
+
+- **pytest**
+- **pytest-asyncio**
+- **HTTPX**
+- **Factory Boy**
+- **Coverage.py**
+- `unittest.mock`
+- Unit Testing
 - Integration Testing
+- End-to-End Testing
+- API Testing
+- TDD
 
-### DevOps & Tools
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
-
-- Docker Compose
-- Chrome DevTools
-- Linux
-- CI/CD
-- Pre-commit
-- Ruff
-- Black
+I focus on building testable applications and using automated tests to verify business logic, API behaviour and integration between application components.
 
 ---
 
-## 🚀 Featured Project
+## ⚡ Asynchronous Processing
 
-### Expense Tracker API
+I work with Python's asynchronous programming model and background processing systems.
 
-A full-stack expense management application currently under development.
+### Concurrency
 
-The project is designed to demonstrate modern Python backend engineering practices, including:
+- `async/await`
+- `asyncio`
+- Asynchronous programming
+- Async API endpoints
+- Async database operations
 
-- REST API design with **FastAPI**
-- Data validation with **Pydantic**
-- Database persistence with **PostgreSQL and SQLAlchemy**
-- Database migrations with **Alembic**
-- Automated testing with **pytest, HTTPX and pytest-asyncio**
-- JWT/OAuth2 authentication
-- Background processing with **Celery and Redis**
-- Containerization with **Docker and Docker Compose**
-- API documentation with **OpenAPI and Swagger UI**
-- Layered architecture
+### Background Processing
+
+- **Celery**
+- **Redis**
+- Celery Workers
+- Celery Beat
+- Background Tasks
+
+This allows applications to move long-running or scheduled operations away from the main request/response cycle.
+
+---
+
+## 🔐 Authentication & Security
+
+Backend security and authentication include:
+
+- **OAuth2**
+- **JWT**
+- Password hashing
+- `OAuth2PasswordBearer`
+- Authentication and authorization
+- CORS
+- HTTP security principles
+- Secure API design
+
+I focus on implementing authentication and authorization mechanisms while keeping security concerns separated from application business logic.
+
+---
+
+## 🏗️ Architecture
+
+I build backend applications using a modular and layered approach.
+
+### Architectural concepts
+
 - Dependency Injection
-- Service and Repository patterns
-- Code quality and formatting
-- Git-based development workflows
+- Service Layer
+- Repository Pattern
+- Layered Architecture
+- Clean Architecture principles
+- Separation of concerns
+- Modular FastAPI applications
+- Configuration management
+- Application Settings
 
-The project is being developed incrementally, with a focus on **maintainability, testability, scalability and production-oriented backend development**.
-
----
-
-## 🎓 Education & Training
-
-### Universitat Oberta de Catalunya — UOC
-
-**Bachelor's Degree in Computer Engineering**  
-2026 – Present
-
-Currently developing a broader foundation in:
-
-- Computer Science
-- Software Engineering
-- Algorithms & Data Structures
-- Databases
-- Operating Systems
-- Computer Networks
-- Systems
-
-### Harvard Online — CS50
-
-Completed a comprehensive self-directed training path covering:
-
-- **CS50P** — Introduction to Programming with Python
-- **CS50SQL** — Relational Databases
-- **CS50x** — Introduction to Computer Science
-- **CS50W** — Web Programming with Python and JavaScript
-
-Topics include Python, algorithms, data structures, SQL, databases, APIs, Django, Flask, Git, Docker, testing, CI/CD and web security.
+The goal is to keep business logic independent from infrastructure concerns and make applications easier to test, maintain and evolve.
 
 ---
 
-## 💼 Professional Background
+## 🐳 DevOps & Deployment
 
-### QA Software Tester — Elite Sports 17
+I use containerization and reproducible development environments as part of my backend workflow.
 
-Currently working as a QA Software Tester in a startup environment.
+### Containers
 
-My work includes:
+- **Docker**
+- **Docker Compose**
+- Environment variables
+- `.env` configuration
 
-- Manual and functional testing
-- Regression testing
-- API testing with Postman
-- SQL-based data validation
-- Browser and network debugging with Chrome DevTools
-- Defect identification and reproduction
-- Test scenario design
-- Collaboration with developers
-- Practical exposure to FastAPI backend code
+### Application Servers
 
-### Lead Sound Technician — Cadena COPE
+- **Uvicorn**
+- **Gunicorn**
+- Uvicorn Workers
+- ASGI deployment
 
-Before moving into software testing, I spent almost 10 years working in a technically demanding broadcast environment.
+### Development Workflow
 
-My responsibilities included:
+- **Git**
+- **GitHub**
+- `venv` / virtual environments
+- `pip`
+- Pre-commit hooks
 
-- Systems and infrastructure management
-- Windows server administration
-- Networking and telecommunications
-- Technical troubleshooting
-- Root cause analysis
-- Monitoring and reliability
-- System maintenance
-- Technical operations in high-availability environments
-
-This background gave me a strong practical foundation in **systems, troubleshooting, networking and reliability**, which I'm now applying to software engineering.
+I'm particularly interested in the intersection between **Backend Engineering and DevOps**, including application deployment, infrastructure, observability and reliability.
 
 ---
 
-## 🌱 What I'm Working Towards
+## 🧹 Code Quality
 
-My long-term technical path is:
+I follow automated code quality and formatting practices using:
+
+- **Ruff**
+- **Black**
+- **isort**
+- **pre-commit**
+- Static analysis
+- Code formatting
+- Linting
+
+The objective is to keep the codebase consistent, readable and maintainable.
+
+---
+
+## 🎨 Frontend
+
+Although my primary focus is backend development, I can build lightweight server-rendered interfaces for backend applications using:
+
+- **HTMX**
+- **Jinja2**
+- **Tailwind CSS**
+- HTML5
+- CSS3
+
+This allows me to develop complete applications while keeping the frontend architecture lightweight and closely integrated with the backend.
+
+---
+
+# 🚀 Featured Project
+
+## Expense Tracker API
+
+A full-stack expense management application built to demonstrate modern Python backend engineering practices.
+
+### Core Stack
 
 ```text
-QA Software Testing
-        ↓
-Backend Engineering
-        ↓
-Cloud / DevOps
-        ↓
-SRE / Platform Engineering
-        ↓
-Cloud & Application Security
+Python
+   │
+   └── FastAPI
+        │
+        ├── Pydantic
+        ├── SQLAlchemy
+        ├── PostgreSQL
+        ├── Alembic
+        │
+        ├── pytest
+        ├── HTTPX
+        │
+        ├── Celery
+        ├── Redis
+        │
+        ├── JWT / OAuth2
+        │
+        └── Docker / Docker Compose
