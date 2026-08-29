@@ -74,7 +74,7 @@ A RESTful backend application built with **Python and FastAPI**, focused on deve
 * Dependency Injection
 * OpenAPI
 
-🔗 [View repository](https://github.com/DaniLoBerr/expense-tracker-fastapi)
+🔗 [View repository](https://github.com/DaniLoBerr/expense-tracker-api)
 
 ---
 
@@ -98,7 +98,7 @@ A planned production-oriented backend application designed to explore more advan
 * AWS
 * Observability
 
-> **Status: Planned — development not started yet.**
+🔗 [View repository](https://github.com/DaniLoBerr/project-management-saas-api)
 
 ---
 
@@ -164,5 +164,5 @@ Building backend projects, improving software engineering fundamentals, and prog
 
 ## 📫 Contact
 
-* LinkedIn: [Daniel López Berrocal](https://www.linkedin.com/)
+* LinkedIn: [Daniel López Berrocal](https://www.linkedin.com/in/daniloberr/)
 * Email: [daniellopezberrocal@gmail.com](mailto:daniellopezberrocal@gmail.com)
