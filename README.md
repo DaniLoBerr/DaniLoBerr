@@ -1,168 +1,68 @@
-# Hi, I'm Daniel 👋
+# Hi! 👋 I'm Dani
 
-### Python Backend Developer in Progress
+I currently work as a **Software QA Engineer** at Elite Sports 17 and I'm studying **Computer Engineering** at UOC. In parallel, I'm following a self-taught learning roadmap to become a **Backend Engineer**, with a focus on Python, FastAPI, and backend systems architecture.
 
-I'm a software professional transitioning into **backend development**, with a focus on **Python, FastAPI, REST APIs, databases, testing, Docker, and AWS**.
-
-I enjoy building backend systems with a strong focus on **clean architecture, automated testing, maintainability, reliability, and production-oriented development**.
+This profile documents that path: what I'm learning, in what order, why, and the projects I use to put it into practice.
 
 ---
 
-## 🛠️ Backend Stack
+## 🎯 Where I'm headed
 
-### Languages & Frameworks
+My goal is to develop the skills needed to work as a Backend Engineer, covering not just the framework and language, but the architecture pieces that surround a real backend: testing, authentication, asynchronous processing, caching, observability, CI/CD, and systems design.
 
-* Python
-* FastAPI
-* Flask
-* Pydantic
+I come from a QA background, which gives me a solid foundation in testing and software quality that I try to leverage and carry over to the development side.
 
-### APIs & Backend
+## 🗺️ My roadmap
 
-* REST APIs
-* OpenAPI
-* Dependency Injection
-* Layered Architecture
-* Authentication & Authorization
+- [x] CS50x — Introduction to Computer Science
+- [x] CS50P — Introduction to Programming with Python
+- [x] CS50SQL — Introduction to Databases with SQL
+- [x] CS50W — Web Development
+- [ ] Official FastAPI Tutorial 🔄 *(in progress)*
+- [ ] Test-Driven Development with FastAPI and Docker
+- [ ] **Project 1:** [Expense Tracker API](https://github.com/DaniLoBerr/expense-tracker-api) — initial build (CRUD + basic auth)
+- [ ] OWASP API Security Top 10
+- [ ] ↳ *Refactor Project 1* — security (OWASP + rate limiting)
+- [ ] The Definitive Guide to Celery and FastAPI
+- [ ] Redis University: RU101
+- [ ] ↳ *Refactor Project 1* — Redis caching
+- [ ] OAuth2 / OIDC / JWT in depth
+- [ ] ↳ *Refactor Project 1* — authentication with OAuth2 + JWT
+- [ ] CI/CD with GitHub Actions
+- [ ] ↳ *Refactor Project 1* — CI/CD pipeline
+- [ ] Scalable FastAPI Applications on AWS (Terraform)
+- [ ] Zalando RESTful API Guidelines
+- [ ] **Project 2:** [Project Management SaaS API](https://github.com/DaniLoBerr/project-management-saas-api) — initial build, with Celery, Redis, OAuth2, CI/CD, API design, and AWS deployment from the start
+- [ ] Load testing with Locust
+- [ ] ↳ *Refactor Project 2* — load testing + optimizations
+- [ ] OpenTelemetry — observability in Python
+- [ ] ↳ *Refactor Project 2* — OpenTelemetry instrumentation
+- [ ] The Art of PostgreSQL
+- [ ] ↳ *Refactor Project 2* — index and query optimization
+- [ ] Designing Data-Intensive Applications (Kleppmann)
+- [ ] **Project 3:** [Event Tracking / Analytics API](https://github.com/DaniLoBerr/event-tracking-analytics-api) — new project, designed from the ground up with everything learned so far (including AWS, OpenTelemetry, and API key / OAuth2 Client Credentials authentication)
 
-### Databases
+Each piece is learned once there's already a real problem to solve with it, and it's applied immediately — either in a project's initial build, or by going back to an existing one to extend it (marked as *refactor* above).
 
-* PostgreSQL
-* SQLAlchemy
-* Alembic
-* SQL
-* SQLite
+## 🚧 Projects in progress
 
-### Testing
+### [Expense Tracker API](https://github.com/DaniLoBerr/expense-tracker-api)
+A REST API for tracking and analyzing personal expenses. My first backend project: focused on solid fundamentals — FastAPI, testing, authentication, basic security, and caching.
 
-* pytest
-* HTTPX
-* pytest-asyncio
-* Unit Testing
-* Integration Testing
-* API Testing
-* TDD
+### [Project Management SaaS API](https://github.com/DaniLoBerr/project-management-saas-api)
+A multi-tenant project and task management API, with asynchronous processing (Celery), caching, OAuth2, CI/CD, observability, and deployment on AWS with Terraform. My integration project, where all the backend architecture pieces I've been learning come together.
 
-### DevOps & Cloud
+### [Event Tracking / Analytics API](https://github.com/DaniLoBerr/event-tracking-analytics-api)
+A high-volume event ingestion API, with database partitioning and real-time aggregates using Redis. A project centered on load patterns and systems architecture decisions.
 
-* Docker
-* Docker Compose
-* Git
-* GitHub
-* CI/CD
-* Linux
-* AWS
+## 🛠️ Stack I work with
 
----
-
-## 🚀 Projects
-
-### Expense Tracker API
-
-A RESTful backend application built with **Python and FastAPI**, focused on developing strong backend fundamentals.
-
-**Focus:**
-
-* REST API design
-* PostgreSQL
-* SQLAlchemy
-* Alembic
-* Automated testing
-* TDD-oriented development
-* Docker
-* Layered architecture
-* Dependency Injection
-* OpenAPI
-
-🔗 [View repository](https://github.com/DaniLoBerr/expense-tracker-api)
-
----
-
-### Project Management SaaS API
-
-A planned production-oriented backend application designed to explore more advanced backend engineering and cloud development.
-
-**Planned focus:**
-
-* Authentication & authorization
-* Multi-tenancy
-* Organizations and teams
-* Projects and tasks
-* Role-based access control
-* Audit logging
-* Background processing
-* PostgreSQL
-* Automated testing
-* Docker
-* CI/CD
-* AWS
-* Observability
-
-🔗 [View repository](https://github.com/DaniLoBerr/project-management-saas-api)
-
----
-
-## 📚 Backend Learning Roadmap
-
-My current learning path is focused on progressively moving from backend fundamentals to production-oriented cloud applications.
-
-```text
-FastAPI
-   ↓
-TDD + Docker
-   ↓
-Expense Tracker API
-   ↓
-AWS
-   ↓
-Project Management SaaS API
-```
-
-The objective is to develop practical experience in:
-
-* Backend development
-* API design
-* Database architecture
-* Automated testing
-* Software architecture
-* Containerization
-* CI/CD
-* Cloud deployment
-* Reliability and observability
-
----
-
-## 🎓 Education
-
-**BSc in Computer Science**
-Universitat Oberta de Catalunya (UOC)
-
-**Harvard CS50**
-CS50P · CS50SQL · CS50x · CS50W
-
----
-
-## 🎯 Current Focus
-
-```text
-Python
-   +
-FastAPI
-   +
-PostgreSQL
-   +
-Testing
-   +
-Docker
-   +
-AWS
-```
-
-Building backend projects, improving software engineering fundamentals, and progressively learning how to design, test, deploy, and operate production-oriented applications.
-
----
+`Python` · `FastAPI` · `PostgreSQL` · `Redis` · `Celery` · `Docker` · `Terraform` · `AWS` · `GitHub Actions` · `Pytest`
 
 ## 📫 Contact
 
-* LinkedIn: [Daniel López Berrocal](https://www.linkedin.com/in/daniloberr/)
-* Email: [daniellopezberrocal@gmail.com](mailto:daniellopezberrocal@gmail.com)
+If you'd like to know more about my progress or discuss any of these projects, feel free to open an issue on any of the repos or reach out directly.
+
+---
+
+*This README is updated as I progress through my roadmap. Last updated: September 2026.*
