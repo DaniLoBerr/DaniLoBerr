@@ -10,7 +10,7 @@ I test APIs for a living and I'm learning to build them. Before software I spent
 
 Backend Developer (Python) or QA Automation / SDET roles — **remote across Europe, or on-site with relocation**. I've lived and worked abroad before (six months in Cork, Ireland) and I'm ready to do it again.
 
-📫 **Contact:** [LinkedIn](https://www.linkedin.com/in/) · daniellopezberrocal@gmail.com
+📫 **Contact:** [LinkedIn](https://www.linkedin.com/in/daniloberr) · daniellopezberrocal@gmail.com
 
 ---
 
