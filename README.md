@@ -2,7 +2,7 @@
  
 **QA Engineer building a backend engineering profile.** Python · FastAPI · PostgreSQL · Testing · AWS
  
-I test APIs for a living and I'm learning to build them. Before software I spent nine years as a lead audio engineer in national live radio, where a bug meant dead air — that's where I learned troubleshooting under pressure and root-cause analysis, which turns out to be most of what testing and backend work actually are.
+I test APIs for a living and I'm learning to build them. Before software I spent almost a decade as an audio engineer in national live radio, where a bug meant dead air — that's where I learned troubleshooting under pressure and root-cause analysis, which turns out to be most of what testing and backend work actually are.
  
 ---
  
@@ -16,11 +16,11 @@ Backend Developer (Python) or QA Automation / SDET roles — **remote across Eur
  
 ## 💼 Where I am right now
  
-**QA Engineer @ Elite Sports 17** *(since January 2026)* — sole QA engineer on two products, web and mobile.
+**QA Engineer @ Elite Sports 17** *(since January 2026)* — sole QA engineer on two projects, web and mobile.
  
 Day to day: exploratory and API testing, test design, defect reporting, and authorization testing across user roles.
  
-Before QA, at the same company, I maintained and extended a **Flask/SQLite REST API in Python** — my first professional experience writing code, and the reason I'm heading back that way deliberately this time.
+At the same company, I maintained and extended a **Flask/SQLite REST API in Python** — my first professional experience writing code.
  
 ---
  
@@ -30,8 +30,6 @@ Before QA, at the same company, I maintained and extended a **Flask/SQLite REST 
 |---|---|
 | **Using professionally** | Python · SQL · REST API testing · Flask · SQLite · Chrome DevTools / Network analysis · Test design & defect reporting |
 | **Building through the roadmap below** | FastAPI · PostgreSQL · SQLAlchemy · pytest · Playwright · Docker · GitHub Actions · Redis · Celery · Terraform · AWS · OpenTelemetry · Locust |
- 
-I keep these two lists separate on purpose. The first one is what I can defend today; the second one is where I'm going, and every item ends up in a public repo where I actually build it.
  
 ---
  
@@ -48,13 +46,9 @@ Each one exists to solve a different hard problem — not to add another CRUD to
 | **Slots** — multi-tenant booking SaaS | Correctness under concurrency: two people booking the same slot in the same millisecond, ruled out in the database itself. Multi-tenancy, RBAC, Celery, distributed tracing | 📋 Planned |
 | **Pulse** — product event analytics | Write-heavy ingestion with fast answers over long windows: partitioning, HyperLogLog, rollup jobs, documented benchmarks | 📋 Planned |
  
-**Repos go public when there is code in them.** A plan is not a deliverable.
- 
 ---
  
 ## 🗺️ The roadmap
- 
-A structured plan to go from QA to backend engineering. Every step has a deliverable — if there's nothing to show, it isn't done.
  
 | Phase | What I build | What it proves |
 |---|---|---|
@@ -63,8 +57,6 @@ A structured plan to go from QA to backend engineering. Every step has a deliver
 | **3. Backend for real** | Flagpole: SQLAlchemy & Alembic, refresh tokens, OWASP API Top 10, Terraform on AWS, load tests, Redis | I write services other services can depend on |
 | **4. Architecture** | Slots: multi-tenancy, RBAC, database-level invariants, Celery, OpenTelemetry | I design distributed systems and observe them |
 | **5. Data depth** | Pulse: partitioning, high-volume ingestion, probabilistic structures | I make things fast on purpose, and I measure it |
- 
-**Learning principle:** learn it when there's a real problem for it, then apply it immediately — either in a new project or by refactoring an existing one. Reading a doc is not a milestone; a working, tested, deployed thing is.
  
 ---
  
@@ -80,6 +72,6 @@ A structured plan to go from QA to backend engineering. Every step has a deliver
  
 ## 🤔 Why the career change
  
-I spent nine years making live radio go out on air without interruptions. The job was diagnosing failures fast, with people listening, and understanding systems well enough to know where they break. At 31 I decided I wanted to build the systems instead of operating them, so I went back to studying, got into software through QA, and I'm now doing the long, unglamorous work of becoming a backend engineer — in public, one deliverable at a time.
+I spent almost a decade making live radio go out on air without interruptions. The job was diagnosing failures fast, with people listening, and understanding systems well enough to know where they break. At 31 I decided I wanted to build the systems instead of operating them, so I went back to studying, got into software through QA, and I'm now doing the long, unglamorous work of becoming a backend engineer — in public, one deliverable at a time.
  
 If that's the kind of profile your team is looking for, I'd love to talk.
