@@ -8,7 +8,7 @@ I test APIs for a living and I'm learning to build them. Before software I spent
  
 ## 🎯 What I'm looking for
  
-Backend Developer (Python) or QA Automation / SDET roles — **remote across Europe, or on-site anywhere in Europe**. Moving country isn't an obstacle for me: I already spent six months living in Cork, Ireland, and I'm ready to make the move again on my own.
+Backend Developer (Python) or QA Automation / SDET roles — **remote across Europe, or on-site anywhere in Europe**. Moving country isn't an obstacle for me: I already spent six months living in Cork, Ireland, and I'm ready to make the move again.
  
 📫 **Contact:** [LinkedIn](https://www.linkedin.com/in/daniloberr) · daniellopezberrocal@gmail.com
  
@@ -18,7 +18,7 @@ Backend Developer (Python) or QA Automation / SDET roles — **remote across Eur
  
 **QA Engineer @ Elite Sports 17** *(since January 2026)* — sole QA engineer on two products: a live sports streaming and club-management platform, and a flexible-work marketplace. Web and mobile.
  
-Day to day: exploratory and API testing, test design, defect reporting, and authorization testing across user roles (OWASP API #1 — object-level authorization, done by hand with two accounts and a lot of curiosity).
+Day to day: exploratory and API testing, test design, defect reporting, and authorization testing across user roles.
  
 Before QA, at the same company, I maintained and extended a **Flask/SQLite REST API in Python** — my first professional experience writing code, and the reason I'm heading back that way deliberately this time.
  
@@ -43,8 +43,6 @@ I keep these two lists separate on purpose. The first one is what I can defend t
 | **[expense-tracker-api](https://github.com/DaniLoBerr/expense-tracker-api)** | Foundations done properly: REST design, testing, auth, security hardening, caching, CI/CD, AWS deployment | 📋 Planned — next build |
 | **[project-management-saas-api](https://github.com/DaniLoBerr/project-management-saas-api)** | Architecture integration: multi-tenancy, RBAC, async processing, observability | 📋 Planned |
 | **[event-tracking-analytics-api](https://github.com/DaniLoBerr/event-tracking-analytics-api)** | Systems work: high-volume ingestion, partitioning, real-time aggregation under load | 📋 Planned |
- 
-Each repo README states clearly what is built and what is still design. I'd rather you find an honest roadmap than an inflated one.
  
 ---
  
