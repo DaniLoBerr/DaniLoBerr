@@ -53,7 +53,7 @@ Each one exists to solve a different hard problem — not to add another CRUD to
 | Phase | What I build | What it proves |
 |---|---|---|
 | **1. Foundations** | FastAPI docs closed · Signal built, tested and deployed | I can build, test and ship an API |
-| **2. Automation** | signal-e2e running in CI against production | I automate, and I know what *not* to automate |
+| **2. Automation** | ISTQB CTFL certification · signal-e2e running in CI against production | I automate, I know what *not* to automate, and the fundamentals are certified |
 | **3. Backend for real** | Flagpole: SQLAlchemy & Alembic, refresh tokens, OWASP API Top 10, Terraform on AWS, load tests, Redis | I write services other services can depend on |
 | **4. Architecture** | Slots: multi-tenancy, RBAC, database-level invariants, Celery, OpenTelemetry | I design distributed systems and observe them |
 | **5. Data depth** | Pulse: partitioning, high-volume ingestion, probabilistic structures | I make things fast on purpose, and I measure it |
@@ -62,12 +62,14 @@ Each one exists to solve a different hard problem — not to add another CRUD to
  
 ## 🎓 Background
  
+- **ISTQB Certified Tester Foundation Level (CTFL v4.0)** — *studying now, not certified yet*
 - **BSc Computer Engineering** — Universitat Oberta de Catalunya *(in progress, since 2026)*
 - **Harvard CS50** — CS50x, CS50P (Python), CS50SQL, CS50W *(2024–2025)*
 - **Six months in Cork, Ireland** — studying English and teaching myself programming, before making the switch to software
 - **Higher Vocational Degree in Audiovisual Sound** — plus telecommunications internships (fibre, LAN/WAN networking)
 - **9 years as lead audio engineer** in national live radio (Cadena COPE), 2015–2024
 - **Languages:** Spanish (native) · English (professional)
+ 
 ---
  
 ## 🤔 Why the career change
