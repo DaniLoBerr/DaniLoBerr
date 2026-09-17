@@ -1,79 +1,89 @@
 # Hi, I'm Dani 👋
- 
-**QA Engineer building a backend engineering profile.** Python · FastAPI · PostgreSQL · Testing · AWS
- 
-I test APIs for a living and I'm learning to build them. Before software I spent almost a decade as an audio engineer in national live radio, where a bug meant dead air — that's where I learned troubleshooting under pressure and root-cause analysis, which turns out to be most of what testing and backend work actually are.
- 
+
+**Software QA Engineer moving into test automation.** API Testing · Web & Mobile Testing · Python · SQL
+
+I test web apps, Android apps and APIs at a software company in Valencia, Spain. My next step is QA Automation / SDET, and from there I'm heading towards platform engineering and, in the long run, DevSecOps. Before software I spent nearly a decade running the technical side of live radio programmes.
+
 ---
- 
+
 ## 🎯 What I'm looking for
- 
-Backend Developer (Python) or QA Automation / SDET roles — **remote across Europe, or on-site anywhere in Europe**. Moving country isn't an obstacle for me: I already spent six months living in Cork, Ireland, and I'm ready to make the move again.
- 
+
+**QA Automation Engineer, SDET or QA Engineer roles.** I'm an EU citizen, open to relocating — especially to the Nordic countries, Ireland, Germany, Switzerland, the UK or Canada — or to a fully remote role.
+
 📫 **Contact:** [LinkedIn](https://www.linkedin.com/in/daniloberr) · daniellopezberrocal@gmail.com
- 
+
 ---
- 
+
 ## 💼 Where I am right now
- 
-**QA Engineer @ Elite Sports 17** *(since January 2026)* — sole QA engineer on two projects, web and mobile.
- 
-Day to day: exploratory and API testing, test design, defect reporting, and authorization testing across user roles.
- 
-At the same company, I maintained and extended a **Flask/SQLite REST API in Python** — my first professional experience writing code.
- 
+
+**Software QA Engineer @ Elite Sports 17** *(since January 2026)* — the company's only QA engineer, covering two products, each with a web app and a native Android app.
+
+- Functional, regression, exploratory and API testing, working from the user side against test environments with Postman and Chrome DevTools
+- Android testing on physical devices and on the Android Studio emulator
+- Test case design, and investigation and reporting of defects
+- Scoping and prioritising the testing of each release myself, as there was no QA function before me
+
+When I joined, I spent about a month making minor changes to a Flask/SQLite REST API before moving to QA.
+
 ---
- 
+
 ## 🛠️ Stack
- 
+
 | | |
 |---|---|
-| **Using professionally** | Python · SQL · REST API testing · Flask · SQLite · Chrome DevTools / Network analysis · Test design & defect reporting |
-| **Building through the roadmap below** | FastAPI · PostgreSQL · SQLAlchemy · pytest · Playwright · Docker · GitHub Actions · Redis · Celery · Terraform · AWS · OpenTelemetry · Locust |
- 
+| **Using at work** | Postman · Chrome DevTools · Android Studio emulator · API testing · mobile (Android) testing · test case design · defect investigation |
+| **Studied (Harvard CS50)** | Python · SQL · Git · pytest · Django · GitHub Actions · relational database design |
+| **Learning now** | FastAPI · ISTQB CTFL v4.0 |
+| **Next, through the roadmap below** | Playwright · Schemathesis · Allure · Locust · Appium · Docker · Linux · AWS · Terraform · Prometheus & Grafana · Kubernetes · OWASP ZAP |
+
 ---
- 
+
 ## 📦 Projects
- 
-Each one exists to solve a different hard problem — not to add another CRUD to the pile.
- 
-| Project | The hard problem it attacks | Status |
+
+Each project attacks a different hard problem.
+
+| Project | What it is | Status |
 |---|---|---|
-| **[fastapi-docs](https://github.com/DaniLoBerr/fastapi-docs)** | Working through the official FastAPI documentation as one coherent app, with strict linting from day one | 🟢 **In progress** |
-| **Signal** — endpoint & service monitor | Real-time without blocking the request: background checks, SSE live feed, streamed exports. Plus JWT and object-level authorization | ⏭️ **Next** |
-| **signal-e2e** — test suite | Testing a deployed app from the outside: pytest + httpx for the API, Playwright and the Page Object Model for the UI, both in CI | 📋 Planned |
-| **Flagpole** — feature-flag service | A service other services depend on: ordered targeting rules, percentage rollouts with consistent hashing, service keys, and a cache that must never go stale | 📋 Planned |
-| **Slots** — multi-tenant booking SaaS | Correctness under concurrency: two people booking the same slot in the same millisecond, ruled out in the database itself. Multi-tenancy, RBAC, Celery, distributed tracing | 📋 Planned |
-| **Pulse** — product event analytics | Write-heavy ingestion with fast answers over long windows: partitioning, HyperLogLog, rollup jobs, documented benchmarks | 📋 Planned |
- 
+| **[fastapi-docs](https://github.com/DaniLoBerr/fastapi-docs)** | The official FastAPI tutorial worked through as one coherent app, with strict linting from day one | 🟢 **In progress** |
+| **[istqb-ctfl-v4](https://github.com/DaniLoBerr/istqb-ctfl-v4)** | My study plan and notes for the ISTQB CTFL v4.0 exam | 🟢 **In progress** |
+| **Signal** — endpoint & service monitor | A FastAPI app built to be tested at every level: object-level authorization, SSRF protection, background checks, deployment with CI/CD. It's the system under test for the suites below | ⏭️ **Next** |
+| **signal-e2e** — automation suite | Testing a deployed app from the outside: API tests with pytest and httpx, contract-based tests with Schemathesis, UI tests with Playwright and the Page Object Model, performance tests, all in CI | 📋 Planned |
+| **Mobile suite for Fossify Notes** | Android automation with Appium on a real open-source app, running on an emulator inside GitHub Actions | 📋 Planned |
+| **Preview** — ephemeral environments | A small platform on Kubernetes that creates an isolated environment for each pull request, runs the test suite against it and destroys it when the PR closes | 📋 Planned |
+
 ---
- 
+
 ## 🗺️ The roadmap
- 
-| Phase | What I build | What it proves |
+
+**QA Engineer → SDET → Platform / SRE / DevOps → DevSecOps**
+
+| Phase | What I work on | Where it takes me |
 |---|---|---|
-| **1. Foundations** | FastAPI docs closed · Signal built, tested and deployed | I can build, test and ship an API |
-| **2. Automation** | ISTQB CTFL certification · signal-e2e running in CI against production | I automate, I know what *not* to automate, and the fundamentals are certified |
-| **3. Backend for real** | Flagpole: SQLAlchemy & Alembic, refresh tokens, OWASP API Top 10, Terraform on AWS, load tests, Redis | I write services other services can depend on |
-| **4. Architecture** | Slots: multi-tenancy, RBAC, database-level invariants, Celery, OpenTelemetry | I design distributed systems and observe them |
-| **5. Data depth** | Pulse: partitioning, high-volume ingestion, probabilistic structures | I make things fast on purpose, and I measure it |
- 
+| **1. Junior SDET** | FastAPI, ISTQB CTFL, Signal built and deployed, API and UI automation, performance and mobile automation | QA Automation / SDET roles |
+| **2. Shared foundation** | Linux and networking in practice, Docker and ephemeral test environments, CI/CD in depth | Owning a team's test infrastructure |
+| **3. Growing from SDET** | AWS, Terraform, observability and reliability (SLOs, alerts, postmortems) | Ready to move towards platform work |
+| **4. Platform** | Kubernetes and Helm, the Preview project, system design | Platform engineering roles |
+| **5. DevSecOps** | Supply-chain and pipeline security, automated security testing, infrastructure and cluster security | DevSecOps roles |
+
+Security isn't left for the end: authorization and SSRF tests, image scanning and least-privilege access are part of the earlier phases.
+
 ---
- 
+
 ## 🎓 Background
- 
+
 - **ISTQB Certified Tester Foundation Level (CTFL v4.0)** — *studying now, not certified yet*
-- **BSc Computer Engineering** — Universitat Oberta de Catalunya *(in progress, since 2026)*
+- **BSc Computer Engineering** — Universitat Oberta de Catalunya *(part-time, since 2026)*
 - **Harvard CS50** — CS50x, CS50P (Python), CS50SQL, CS50W *(2024–2025)*
-- **Six months in Cork, Ireland** — studying English and teaching myself programming, before making the switch to software
-- **Higher Vocational Degree in Audiovisual Sound** — plus telecommunications internships (fibre, LAN/WAN networking)
-- **9 years as lead audio engineer** in national live radio (Cadena COPE), 2015–2024
-- **Languages:** Spanish (native) · English (professional)
- 
+- **Telecommunications infrastructure certificate** *(2021)*, and a two-month internship supporting a copper-to-fibre migration
+- **Higher Vocational Degree in Audiovisual Sound** *(2013)*
+- **Sound technician in live radio at Cadena COPE** *(2015–2024)*, most of that time as lead sound technician
+- **Six months in Cork, Ireland** *(2025–2026)*, where I completed a C1 English course
+- **Languages:** Spanish (native) · English (C1, full professional proficiency)
+
 ---
- 
+
 ## 🤔 Why the career change
- 
-I spent almost a decade making live radio go out on air without interruptions. The job was diagnosing failures fast, with people listening, and understanding systems well enough to know where they break. At 31 I decided I wanted to build the systems instead of operating them, so I went back to studying, got into software through QA, and I'm now doing the long, unglamorous work of becoming a backend engineer — in public, one deliverable at a time.
- 
-If that's the kind of profile your team is looking for, I'd love to talk.
+
+For nearly a decade I ran the technical side of live radio programmes: the broadcast equipment, the timing, and the first response when something failed on air. In 2024, at 31, I left because I had stopped growing in that job, and I started studying programming on my own. I moved to Ireland to keep studying and improve my English, and in January 2026 I came back to Spain for my first software job, in QA.
+
+I'm now learning test automation and building the projects above, and I publish the work as I go.
