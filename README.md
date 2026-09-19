@@ -2,7 +2,7 @@
 
 **Software QA Engineer moving into test automation.** API Testing · Web & Mobile Testing · Python · SQL
 
-I test web apps, Android apps and APIs at a software company in Valencia, Spain. My next step is QA Automation / SDET, and from there I'm heading towards platform engineering and, in the long run, DevSecOps. Before software I spent nearly a decade running the technical side of live radio programmes.
+I test web apps, Android apps and APIs at a software company in Valencia, Spain. My next step is QA Automation / SDET, and from there I'm heading towards platform engineering and, in the long run, probably security (DevSecOps). Before software I spent nearly a decade running the technical side of live radio programmes.
 
 ---
 
@@ -33,8 +33,8 @@ When I joined, I spent about a month making minor changes to a Flask/SQLite REST
 |---|---|
 | **Using at work** | Postman · Chrome DevTools · Android Studio emulator · API testing · mobile (Android) testing · test case design · defect investigation |
 | **Studied (Harvard CS50)** | Python · SQL · Git · pytest · Django · GitHub Actions · relational database design |
-| **Learning now** | FastAPI · ISTQB CTFL v4.0 |
-| **Next, through the roadmap below** | Playwright · Schemathesis · Allure · Locust · Appium · Docker · Linux · AWS · Terraform · Prometheus & Grafana · Kubernetes · OWASP ZAP |
+| **Learning now** | Test automation with pytest, HTTPX and Playwright · ISTQB CTFL v4.0 |
+| **Next, through the roadmap below** | FastAPI · Schemathesis · Allure · accessibility testing (axe) · LLM feature evaluation · TypeScript · Locust · Appium · Docker · Linux · AWS · Terraform · Prometheus & Grafana · Kubernetes · Go · OWASP ZAP |
 
 ---
 
@@ -44,9 +44,10 @@ Each project attacks a different hard problem.
 
 | Project | What it is | Status |
 |---|---|---|
-| **[fastapi-docs](https://github.com/DaniLoBerr/fastapi-docs)** | The official FastAPI tutorial worked through as one coherent app, with strict linting from day one | 🟢 **In progress** |
+| **Vikunja test suite** | API and UI automation of [Vikunja](https://vikunja.io), a real open-source task app: my own API client, Playwright with the Page Object Model, permission tests between users, accessibility checks and everything running in CI | ⏭️ **Next** |
 | **[istqb-ctfl-v4](https://github.com/DaniLoBerr/istqb-ctfl-v4)** | My study plan and notes for the ISTQB CTFL v4.0 exam | 🟢 **In progress** |
-| **Signal** — endpoint & service monitor | A FastAPI app built to be tested at every level: object-level authorization, SSRF protection, background checks, deployment with CI/CD. It's the system under test for the suites below | ⏭️ **Next** |
+| **[fastapi-docs](https://github.com/DaniLoBerr/fastapi-docs)** | The official FastAPI tutorial worked through as one coherent app, with strict linting from day one | ⏸️ **Paused**, resumes before Signal |
+| **Signal** — endpoint & service monitor | A FastAPI app built to be tested at every level: object-level authorization, SSRF protection, background checks, deployment with CI/CD, and an LLM-powered feature with its own evaluations. It's the system under test for the suites below | 📋 Planned |
 | **signal-e2e** — automation suite | Testing a deployed app from the outside: API tests with pytest and httpx, contract-based tests with Schemathesis, UI tests with Playwright and the Page Object Model, performance tests, all in CI | 📋 Planned |
 | **Mobile suite for Fossify Notes** | Android automation with Appium on a real open-source app, running on an emulator inside GitHub Actions | 📋 Planned |
 | **Preview** — ephemeral environments | A small platform on Kubernetes that creates an isolated environment for each pull request, runs the test suite against it and destroys it when the PR closes | 📋 Planned |
@@ -55,17 +56,17 @@ Each project attacks a different hard problem.
 
 ## 🗺️ The roadmap
 
-**QA Engineer → SDET → Platform / SRE / DevOps → DevSecOps**
+**QA Engineer → SDET → Platform Engineer → DevSecOps**
 
 | Phase | What I work on | Where it takes me |
 |---|---|---|
-| **1. Junior SDET** | FastAPI, ISTQB CTFL, Signal built and deployed, API and UI automation, performance and mobile automation | QA Automation / SDET roles |
+| **1. Junior SDET** | API and UI automation first, then ISTQB CTFL and coding practice, then Signal built, deployed and tested from the outside, testing AI features, a second automation language, performance and mobile automation | QA Automation / SDET roles |
 | **2. Shared foundation** | Linux and networking in practice, Docker and ephemeral test environments, CI/CD in depth | Owning a team's test infrastructure |
 | **3. Growing from SDET** | AWS, Terraform, observability and reliability (SLOs, alerts, postmortems) | Ready to move towards platform work |
 | **4. Platform** | Kubernetes and Helm, the Preview project, system design | Platform engineering roles |
-| **5. DevSecOps** | Supply-chain and pipeline security, automated security testing, infrastructure and cluster security | DevSecOps roles |
+| **5. DevSecOps** | Supply-chain and pipeline security, automated security testing, infrastructure and cluster security | DevSecOps roles, if it's still the right fit when I get there |
 
-Security isn't left for the end: authorization and SSRF tests, image scanning and least-privilege access are part of the earlier phases.
+Security isn't left for the end: authorization and SSRF tests, prompt-injection tests on an LLM feature, image scanning and least-privilege access are part of the earlier phases.
 
 ---
 
