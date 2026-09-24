@@ -23,8 +23,6 @@ I test web apps, Android apps and APIs at a software company in Valencia, Spain.
 - Test case design, and investigation and reporting of defects
 - Scoping and prioritising the testing of each release myself, as there was no QA function before me
 
-Before QA I had two roles at the same company: backend developer, making minor changes to a Flask/SQLite REST API for about a month, and AI data annotator, preparing and annotating datasets for machine learning training.
-
 ---
 
 ## 🛠️ Stack
