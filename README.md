@@ -23,7 +23,7 @@ I test web apps, Android apps and APIs at a software company in Valencia, Spain.
 - Test case design, and investigation and reporting of defects
 - Scoping and prioritising the testing of each release myself, as there was no QA function before me
 
-When I joined, I spent about a month making minor changes to a Flask/SQLite REST API before moving to QA.
+Before QA I had two roles at the same company: backend developer, making minor changes to a Flask/SQLite REST API for about a month, and AI data annotator, preparing and annotating datasets for machine learning training.
 
 ---
 
@@ -31,10 +31,10 @@ When I joined, I spent about a month making minor changes to a Flask/SQLite REST
 
 | | |
 |---|---|
-| **Using at work** | Postman · Chrome DevTools · Android Studio emulator · API testing · mobile (Android) testing · test case design · defect investigation |
+| **Using at work** | Postman · Linux (Ubuntu) · Chrome DevTools · Android Studio emulator · API testing · mobile (Android) testing · test case design · defect investigation |
 | **Studied (Harvard CS50)** | Python · SQL · Git · pytest · Django · GitHub Actions · relational database design |
-| **Learning now** | Test automation with pytest, HTTPX and Playwright · ISTQB CTFL v4.0 |
-| **Next, through the roadmap below** | FastAPI · Schemathesis · Allure · accessibility testing (axe) · LLM feature evaluation · TypeScript · Locust · Appium · Docker · Linux · AWS · Terraform · Prometheus & Grafana · Kubernetes · Go · OWASP ZAP |
+| **Learning now** | Docker and Docker Compose · test automation with pytest, HTTPX and Playwright · ISTQB CTFL v4.0 |
+| **Next, through the roadmap below** | FastAPI · Schemathesis · Allure · accessibility testing (axe) · LLM feature evaluation · TypeScript · Locust · Appium · Linux administration · AWS · Terraform · Prometheus & Grafana · Kubernetes · Go · OWASP ZAP |
 
 ---
 
@@ -44,7 +44,7 @@ Each project attacks a different hard problem.
 
 | Project | What it is | Status |
 |---|---|---|
-| **Vikunja test suite** | API and UI automation of [Vikunja](https://vikunja.io), a real open-source task app: my own API client, Playwright with the Page Object Model, permission tests between users, accessibility checks and everything running in CI | ⏭️ **Next** |
+| **[vikunja-test-suite](https://github.com/DaniLoBerr/vikunja-test-suite)** | API and UI automation of [Vikunja](https://vikunja.io), a real open-source task app: my own API client, Playwright with the Page Object Model, permission tests between users, accessibility checks and everything running in CI | 🟢 **In progress** |
 | **[istqb-ctfl-v4](https://github.com/DaniLoBerr/istqb-ctfl-v4)** | My study plan and notes for the ISTQB CTFL v4.0 exam | 🟢 **In progress** |
 | **[fastapi-docs](https://github.com/DaniLoBerr/fastapi-docs)** | The official FastAPI tutorial worked through as one coherent app, with strict linting from day one | ⏸️ **Paused**, resumes before Signal |
 | **Signal** — endpoint & service monitor | A FastAPI app built to be tested at every level: object-level authorization, SSRF protection, background checks, deployment with CI/CD, and an LLM-powered feature with its own evaluations. It's the system under test for the suites below | 📋 Planned |
