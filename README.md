@@ -63,7 +63,7 @@ I build it one role at a time, from a count of real job ads: only the next role 
 | **2. Platform** *(direction)* | Linux, Docker and CI/CD in depth, then cloud, infrastructure as code and Kubernetes. Planned in detail when I get there | Owning a team's test infrastructure, then platform engineering |
 | **3. DevSecOps** *(direction)* | Security in the pipeline and in the infrastructure | DevSecOps roles, if it's still the right fit when I get there |
 
-I use AI every day, and I'm explicit about how. In what I'm still learning, I write the code and the AI explains and reviews. Once I can do something without help, I delegate the repetition and review it like a pull request. The README of the suite says what was AI-assisted and how I checked it.
+I use AI every day, and I'm explicit about how. In what I'm still learning, I write the code and the AI explains and reviews. Once I can do something without help, I delegate the repetition and review it like a pull request. The README of the suite says what was AI-assisted.
 
 ---
 
