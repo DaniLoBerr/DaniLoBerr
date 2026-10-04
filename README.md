@@ -48,7 +48,6 @@ One real app, automated in the stacks that job ads ask for most.
 | **Vikunja suite in TypeScript** | The same end-to-end suite in Playwright Test, with a written comparison between the two | 📋 Planned |
 | **Vikunja suite in Java** | The API tested with REST Assured and the UI with Selenium and Cucumber, with the pipeline also running on Jenkins | 📋 Planned |
 | **Performance tests for Vikunja** | Load scenarios with JMeter and k6, with thresholds in the pipeline | 📋 Planned |
-| **[fastapi-docs](https://github.com/DaniLoBerr/fastapi-docs)** | The official FastAPI tutorial worked through as one coherent app, with strict linting from day one | ⏸️ **Paused** |
 
 ---
 
