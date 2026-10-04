@@ -32,51 +32,50 @@ I test web apps, Android apps and APIs at a software company in Valencia, Spain.
 | **Using at work** | Postman · Linux (Ubuntu) · Chrome DevTools · Android Studio emulator · API testing · mobile (Android) testing · test case design · defect investigation |
 | **Studied (Harvard CS50)** | Python · SQL · Git · pytest · Django · GitHub Actions · relational database design |
 | **Learning now** | Docker and Docker Compose · test automation with pytest, HTTPX and Playwright · ISTQB CTFL v4.0 |
-| **Next, through the roadmap below** | FastAPI · Schemathesis · Allure · accessibility testing (axe) · LLM feature evaluation · TypeScript · Locust · Appium · Linux administration · AWS · Terraform · Prometheus & Grafana · Kubernetes · Go · OWASP ZAP |
+| **Next, through the roadmap below** | BDD with pytest-bdd · TypeScript and Playwright Test · Java, Selenium, Cucumber and REST Assured · Jenkins · performance testing with JMeter and k6 |
+| **Later** | Linux, Docker and CI/CD in depth · AWS · Terraform · Kubernetes |
 
 ---
 
 ## 📦 Projects
 
-Each project attacks a different hard problem.
+One real app, automated in the stacks that job ads ask for most.
 
 | Project | What it is | Status |
 |---|---|---|
-| **[vikunja-test-suite](https://github.com/DaniLoBerr/vikunja-test-suite)** | API and UI automation of [Vikunja](https://vikunja.io), a real open-source task app: my own API client, Playwright with the Page Object Model, permission tests between users, accessibility checks and everything running in CI | 🟢 **In progress** |
+| **[vikunja-test-suite](https://github.com/DaniLoBerr/vikunja-test-suite)** | API and UI automation of [Vikunja](https://vikunja.io), a real open-source task app, in Python: my own API client, Playwright with the Page Object Model, permission tests between users, BDD scenarios, a few SQL checks and everything running in CI | 🟢 **In progress** |
 | **[istqb-ctfl-v4](https://github.com/DaniLoBerr/istqb-ctfl-v4)** | My study plan and notes for the ISTQB CTFL v4.0 exam | 🟢 **In progress** |
-| **[fastapi-docs](https://github.com/DaniLoBerr/fastapi-docs)** | The official FastAPI tutorial worked through as one coherent app, with strict linting from day one | ⏸️ **Paused**, resumes before Signal |
-| **Signal** — endpoint & service monitor | A FastAPI app built to be tested at every level: object-level authorization, SSRF protection, background checks, deployment with CI/CD, and an LLM-powered feature with its own evaluations. It's the system under test for the suites below | 📋 Planned |
-| **signal-e2e** — automation suite | Testing a deployed app from the outside: API tests with pytest and httpx, contract-based tests with Schemathesis, UI tests with Playwright and the Page Object Model, performance tests, all in CI | 📋 Planned |
-| **Mobile suite for Fossify Notes** | Android automation with Appium on a real open-source app, running on an emulator inside GitHub Actions | 📋 Planned |
-| **Preview** — ephemeral environments | A small platform on Kubernetes that creates an isolated environment for each pull request, runs the test suite against it and destroys it when the PR closes | 📋 Planned |
+| **Vikunja suite in TypeScript** | The same end-to-end suite in Playwright Test, with a written comparison between the two | 📋 Planned |
+| **Vikunja suite in Java** | The API tested with REST Assured and the UI with Selenium and Cucumber, with the pipeline also running on Jenkins | 📋 Planned |
+| **Performance tests for Vikunja** | Load scenarios with JMeter and k6, with thresholds in the pipeline | 📋 Planned |
+| **[fastapi-docs](https://github.com/DaniLoBerr/fastapi-docs)** | The official FastAPI tutorial worked through as one coherent app, with strict linting from day one | ⏸️ **Paused** |
 
 ---
 
 ## 🗺️ The roadmap
 
-**QA Engineer → SDET → Platform Engineer → DevSecOps**
+**QA Engineer → QA Automation / SDET → Platform Engineer → DevSecOps**
 
-| Phase | What I work on | Where it takes me |
+I build it one role at a time, from a count of real job ads: only the next role is planned in detail, and I recount before starting each one.
+
+| Role | What I work on | Where it takes me |
 |---|---|---|
-| **1. Junior SDET** | API and UI automation first, then ISTQB CTFL and coding practice, then Signal built, deployed and tested from the outside, testing AI features, a second automation language, performance and mobile automation | QA Automation / SDET roles |
-| **2. Shared foundation** | Linux and networking in practice, Docker and ephemeral test environments, CI/CD in depth | Owning a team's test infrastructure |
-| **3. Growing from SDET** | AWS, Terraform, observability and reliability (SLOs, alerts, postmortems) | Ready to move towards platform work |
-| **4. Platform** | Kubernetes and Helm, the Preview project, system design | Platform engineering roles |
-| **5. DevSecOps** | Supply-chain and pipeline security, automated security testing, infrastructure and cluster security | DevSecOps roles, if it's still the right fit when I get there |
+| **1. QA Automation** *(now)* | One real app automated from the outside: API and UI in Python with pytest and Playwright, then the same suite in TypeScript and in Java with Selenium, plus BDD, performance tests and CI. Alongside it, ISTQB CTFL and the theory under what I test: HTTP and APIs, SQL, and how LLMs work and fail | QA Automation / SDET roles |
+| **2. Platform** *(direction)* | Linux, Docker and CI/CD in depth, then cloud, infrastructure as code and Kubernetes. Planned in detail when I get there | Owning a team's test infrastructure, then platform engineering |
+| **3. DevSecOps** *(direction)* | Security in the pipeline and in the infrastructure | DevSecOps roles, if it's still the right fit when I get there |
 
-Security isn't left for the end: authorization and SSRF tests, prompt-injection tests on an LLM feature, image scanning and least-privilege access are part of the earlier phases.
+I use AI every day, and I'm explicit about how. In what I'm still learning, I write the code and the AI explains and reviews. Once I can do something without help, I delegate the repetition and review it like a pull request. The README of the suite says what was AI-assisted and how I checked it.
 
 ---
 
 ## 🎓 Background
 
 - **ISTQB Certified Tester Foundation Level (CTFL v4.0)** — *studying now, not certified yet*
-- **BSc Computer Engineering** — Universitat Oberta de Catalunya *(part-time, since 2026)*
 - **Harvard CS50** — CS50x, CS50P (Python), CS50SQL, CS50W *(2024–2025)*
 - **Telecommunications infrastructure certificate** *(2021)*, and a two-month internship supporting a copper-to-fibre migration
 - **Higher Vocational Degree in Audiovisual Sound** *(2013)*
 - **Sound technician in live radio at Cadena COPE** *(2015–2024)*, most of that time as lead sound technician
-- **Six months in Cork, Ireland** *(2025–2026)*, where I completed a C1 English course
+- **Six months in Cork, Ireland** *(2025–2026)*, where I studied English
 - **Languages:** Spanish (native) · English (C1, full professional proficiency)
 
 ---
