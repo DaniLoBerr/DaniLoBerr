@@ -43,7 +43,7 @@ One real app, automated in the stacks that job ads ask for most.
 
 | Project | What it is | Status |
 |---|---|---|
-| **[vikunja-test-suite](https://github.com/DaniLoBerr/vikunja-test-suite)** | API and UI automation of [Vikunja](https://vikunja.io), a real open-source task app, in Python: my own API client, Playwright with the Page Object Model, permission tests between users, BDD scenarios, a few SQL checks and everything running in CI | 🟢 **In progress** |
+| **[vikunja-test-suite](https://github.com/DaniLoBerr/vikunja-test-suite)** | API and UI automation of [Vikunja](https://vikunja.io), a real open-source task app, in Python: my own API client, Playwright with the Page Object Model, permission tests between users, BDD scenarios, a few SQL checks, CI on every pull request and the whole suite running in a container with one command | 🟢 **In progress** |
 | **[istqb-ctfl-v4](https://github.com/DaniLoBerr/istqb-ctfl-v4)** | My study plan and notes for the ISTQB CTFL v4.0 exam | 🟢 **In progress** |
 | **Vikunja suite in TypeScript** | The same end-to-end suite in Playwright Test, with a written comparison between the two | 📋 Planned |
 | **Vikunja suite in Java** | The API tested with REST Assured and the UI with Selenium and Cucumber, with the pipeline also running on Jenkins | 📋 Planned |
@@ -59,7 +59,7 @@ I build it one role at a time, from a count of real job ads: only the next role 
 
 | Role | What I work on | Where it takes me |
 |---|---|---|
-| **1. QA Automation** *(now)* | One real app automated from the outside: API and UI in Python with pytest and Playwright, then the same suite in TypeScript and in Java with Selenium, plus BDD, performance tests and CI. Alongside it, ISTQB CTFL and the theory under what I test: HTTP and APIs, SQL, and how LLMs work and fail | QA Automation / SDET roles |
+| **1. QA Automation / SDET** *(now)* | One real app automated from the outside: API and UI in Python with pytest and Playwright, then the same suite in TypeScript and in Java with Selenium, plus BDD, performance tests, CI and test environments in containers. Alongside it, ISTQB CTFL and the theory under what I test: HTTP and APIs, SQL, and how LLMs work, how they fail and how to use them well | QA Automation / SDET roles |
 | **2. Platform** *(direction)* | Linux, Docker and CI/CD in depth, then cloud, infrastructure as code and Kubernetes. Planned in detail when I get there | Owning a team's test infrastructure, then platform engineering |
 | **3. DevSecOps** *(direction)* | Security in the pipeline and in the infrastructure | DevSecOps roles, if it's still the right fit when I get there |
 
