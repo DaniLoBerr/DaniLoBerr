@@ -70,6 +70,7 @@ I use AI every day, and I'm explicit about how. In what I'm still learning, I wr
 ## 🎓 Background
 
 - **ISTQB Certified Tester Foundation Level (CTFL v4.0)** — *studying now, not certified yet*
+- **BSc Computer Engineering** — Universitat Oberta de Catalunya *(part-time, since 2026)*
 - **Harvard CS50** — CS50x, CS50P (Python), CS50SQL, CS50W *(2024–2025)*
 - **Telecommunications infrastructure certificate** *(2021)*, and a two-month internship supporting a copper-to-fibre migration
 - **Higher Vocational Degree in Audiovisual Sound** *(2013)*
