@@ -1,8 +1,8 @@
 # Hi, I'm Dani 👋
 
-**Software QA Engineer moving into test automation.** API Testing · Web & Mobile Testing · Python · SQL
+**Software QA Engineer moving into test automation.** AI-Driven Testing · API, Web & Mobile Testing · Python · SQL
 
-I test web apps, Android apps and APIs at a software company in Valencia, Spain. My next step is QA Automation / SDET, and from there I'm heading towards platform engineering and, in the long run, probably security (DevSecOps). Before software I spent nearly a decade running the technical side of live radio programmes.
+I'm the only QA at a software company in Valencia, Spain, where I built the QA function from scratch and run it as an AI-driven process: AI agents execute the tests on web, API and Android, and I verify every finding. My next step is QA Automation / SDET, and from there I'm heading towards platform engineering and, in the long run, probably security (DevSecOps). Before software I spent nearly a decade running the technical side of live radio programmes.
 
 ---
 
@@ -16,12 +16,13 @@ I test web apps, Android apps and APIs at a software company in Valencia, Spain.
 
 ## 💼 Where I am right now
 
-**Software QA Engineer @ Elite Sports 17** *(since January 2026)* — the company's only QA engineer, covering two products, each with a web app and a native Android app.
+**Software QA Engineer @ Elite Sports 17** *(since January 2026)* — the company's only QA engineer, covering two products, each with a web app and a native Android app. There was no QA function before me: I built it by testing by hand at first, and I run it today as an AI-driven process.
 
-- Functional, regression, exploratory and API testing, working from the user side against test environments with Postman and Chrome DevTools
-- Android testing on physical devices and on the Android Studio emulator
-- Test case design, and investigation and reporting of defects
-- Scoping and prioritising the testing of each release myself, as there was no QA function before me
+- The QA process lives in Git, organised by the phases of the ISTQB test process: a master test plan, the test conditions, more than 260 test cases with traceability, and the results of every run
+- AI agents (Claude) execute the test cases through the browser, the API and the Android emulator under my direction; logins, payments and verifications stay with me
+- I verify every candidate defect by hand before it reaches the developers; each fix comes back as a pull request, and I run the confirmation test before closing it
+- I scope and prioritise the testing of each release, and report to the Tech Lead every week
+- I also run quality reviews of training datasets for computer-vision models, with written criteria and a report per batch
 
 ---
 
@@ -29,8 +30,8 @@ I test web apps, Android apps and APIs at a software company in Valencia, Spain.
 
 | | |
 |---|---|
-| **Using at work** | Postman · Linux (Ubuntu) · Chrome DevTools · Android Studio emulator · API testing · mobile (Android) testing · test case design · defect investigation |
-| **Studied (Harvard CS50)** | Python · SQL · Git · pytest · Django · GitHub Actions · relational database design |
+| **Using at work** | Claude (AI agents) · Git and GitHub (branches, pull requests) · Postman · Chrome DevTools · Android Studio emulator · Linux (Ubuntu) · API testing · mobile (Android) testing · test planning and test case design · defect management |
+| **Studied (Harvard CS50)** | Python · SQL · pytest · Django · GitHub Actions · relational database design |
 | **Learning now** | Docker and Docker Compose · test automation with pytest, HTTPX and Playwright · ISTQB CTFL v4.0 |
 | **Next, through the roadmap below** | BDD with pytest-bdd · TypeScript and Playwright Test · Java, Selenium, Cucumber and REST Assured · Jenkins · performance testing with JMeter and k6 |
 | **Later** | Linux, Docker and CI/CD in depth · AWS · Terraform · Kubernetes |
@@ -63,7 +64,7 @@ I build it one role at a time, from a count of real job ads: only the next role 
 | **2. Platform** *(direction)* | Linux, Docker and CI/CD in depth, then cloud, infrastructure as code and Kubernetes. Planned in detail when I get there | Owning a team's test infrastructure, then platform engineering |
 | **3. DevSecOps** *(direction)* | Security in the pipeline and in the infrastructure | DevSecOps roles, if it's still the right fit when I get there |
 
-I use AI every day, and I'm explicit about how. In what I'm still learning, I write the code and the AI explains and reviews. Once I can do something without help, I delegate the repetition and review it like a pull request. The README of the suite says what was AI-assisted.
+I use AI every day, and I'm explicit about how. In what I'm still learning, I write the code and the AI explains and reviews. Once I can do something without help, I delegate the repetition and review it like a pull request. The README of the suite says what was AI-assisted. At work, AI agents run the tests and draft the documentation, and I verify what they report before anyone else sees it.
 
 ---
 
