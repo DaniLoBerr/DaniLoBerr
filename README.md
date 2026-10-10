@@ -16,11 +16,11 @@ I'm the only QA at a software company in Valencia, Spain, where I built the QA f
 
 ## 💼 Where I am right now
 
-**Software QA Engineer @ Elite Sports 17** *(since January 2026)* — the company's only QA engineer, covering two products, each with a web app and a native Android app. There was no QA function before me: I built it by testing by hand at first, and I run it today as an AI-driven process.
+**Software QA Engineer @ Elite Sports 17** *(since January 2026)* — the company's only QA engineer, covering two products, each with a web app and a native Android app. There was no QA function before me: I built it on hands-on testing, and scaled it into an AI-driven process.
 
 - The QA process lives in Git, organised by the phases of the ISTQB test process: a master test plan, the test conditions, more than 260 test cases with traceability, and the results of every run
-- AI agents (Claude) execute the test cases through the browser, the API and the Android emulator under my direction; logins, payments and verifications stay with me
-- I verify every candidate defect by hand before it reaches the developers; each fix comes back as a pull request, and I run the confirmation test before closing it
+- I built and run the execution workflow: AI agents (Claude) execute the test cases through the browser, the API and the Android emulator
+- I verify every candidate defect by hand before it reaches the developers; each fix comes back as a pull request, and I run the confirmation test before closing it — 200 defects fixed and closed this way in a single month
 - I scope and prioritise the testing of each release, and report to the Tech Lead every week
 - I also run quality reviews of training datasets for computer-vision models, with written criteria and a report per batch
 
@@ -32,7 +32,7 @@ I'm the only QA at a software company in Valencia, Spain, where I built the QA f
 |---|---|
 | **Using at work** | Claude (AI agents) · Git and GitHub (branches, pull requests) · Postman · Chrome DevTools · Android Studio emulator · Linux (Ubuntu) · API testing · mobile (Android) testing · test planning and test case design · defect management |
 | **Studied (Harvard CS50)** | Python · SQL · pytest · Django · GitHub Actions · relational database design |
-| **Learning now** | Docker and Docker Compose · test automation with pytest, HTTPX and Playwright · ISTQB CTFL v4.0 |
+| **Currently learning** | Docker and Docker Compose · test automation with pytest, HTTPX and Playwright · ISTQB CTFL v4.0 |
 | **Next, through the roadmap below** | BDD with pytest-bdd · TypeScript and Playwright Test · Java, Selenium, Cucumber and REST Assured · Jenkins · performance testing with JMeter and k6 |
 | **Later** | Linux, Docker and CI/CD in depth · AWS · Terraform · Kubernetes |
 
