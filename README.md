@@ -8,7 +8,7 @@ I'm the only QA at a software company in Valencia, Spain, where I built the QA f
 
 ## 🎯 What I'm looking for
 
-**QA Automation Engineer, SDET or QA Engineer roles.** I'm an EU citizen, open to relocating — especially to the Nordic countries, Ireland, Germany, Switzerland, the UK or Canada — or to a fully remote role.
+**QA Automation Engineer, SDET or QA Engineer roles.** I'm an EU citizen, open to relocating or to a fully remote role.
 
 📫 **Contact:** [LinkedIn](https://www.linkedin.com/in/daniloberr) · daniellopezberrocal@gmail.com
 
