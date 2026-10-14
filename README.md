@@ -20,9 +20,9 @@ I'm the only QA at a software company in Valencia, Spain, where I built the QA f
 
 - The QA process lives in Git, organised by the phases of the ISTQB test process: a master test plan, the test conditions, more than 260 test cases with traceability, and the results of every run
 - I built and run the execution workflow: AI agents (Claude) execute the test cases through the browser, the API and the Android emulator
-- I verify every candidate defect by hand before it reaches the developers; each fix comes back as a pull request, and I run the confirmation test before closing it — 200 defects fixed and closed this way in a single month
-- I scope and prioritise the testing of each release, and report to the Tech Lead every week
-- I also run quality reviews of training datasets for computer-vision models, with written criteria and a report per batch
+- I verify every candidate defect by hand before it reaches the developers, and triage it as an issue in the product's repository (severity, priority, assignee); no issue is closed until my confirmation test passes — 200 defects fixed and closed this way in a single month
+- I scope and prioritise the testing of each release, and take open product questions to the Tech Lead
+- I also run quality reviews of training datasets for computer-vision models, carried out by AI agents (Claude) against written criteria, with a report per batch
 
 ---
 
@@ -30,7 +30,7 @@ I'm the only QA at a software company in Valencia, Spain, where I built the QA f
 
 | | |
 |---|---|
-| **Using at work** | Claude (AI agents) · Git and GitHub (branches, pull requests) · Postman · Chrome DevTools · Android Studio emulator · Linux (Ubuntu) · API testing · mobile (Android) testing · test planning and test case design · defect management |
+| **Using at work** | Claude (AI agents) · Git and GitHub (branches, pull requests, issues) · Postman · Chrome DevTools · Android Studio emulator · Linux (Ubuntu) · API testing · mobile (Android) testing · test planning and test case design · defect management |
 | **Studied (Harvard CS50)** | Python · SQL · pytest · Django · GitHub Actions · relational database design |
 | **Currently learning** | Docker and Docker Compose · test automation with pytest, HTTPX and Playwright · ISTQB CTFL v4.0 |
 | **Next, through the roadmap below** | BDD with pytest-bdd · TypeScript and Playwright Test · Java, Selenium, Cucumber and REST Assured · Jenkins · performance testing with JMeter and k6 |
