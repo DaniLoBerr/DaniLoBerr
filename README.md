@@ -20,7 +20,7 @@ I'm the only QA at a software company in Valencia, Spain, where I built the QA f
 
 - The QA process lives in Git, organised by the phases of the ISTQB test process: a master test plan, the test conditions, more than 260 test cases with traceability, and the results of every run
 - I built and run the execution workflow: AI agents (Claude) execute the test cases through the browser, the API and the Android emulator
-- I verify every candidate defect by hand before it reaches the developers, and triage it as an issue in the product's repository (severity, priority, assignee); no issue is closed until my confirmation test passes — 200 defects fixed and closed this way in a single month
+- I verify every candidate defect by hand before it reaches the developers, and triage it as an issue in the product's repository (severity, priority, assignee); every fix gets a confirmation test and regression testing around the change, and one that only partly passes stays open — 300+ defects reported and 220+ fixed and confirmed across both products in five weeks
 - I scope and prioritise the testing of each release, and take open product questions to the Tech Lead
 - I also run quality reviews of training datasets for computer-vision models, carried out by AI agents (Claude) against written criteria, with a report per batch: 10,000+ images and 35,000+ annotations reviewed, with 9,000+ errors caught
 
@@ -32,9 +32,9 @@ I'm the only QA at a software company in Valencia, Spain, where I built the QA f
 |---|---|
 | **Using at work** | Claude (AI agents) · Git and GitHub (branches, pull requests, issues) · Postman · Chrome DevTools · Android Studio emulator · Linux (Ubuntu) · API testing · mobile (Android) testing · test planning and test case design · defect management |
 | **Studied (Harvard CS50)** | Python · SQL · pytest · Django · GitHub Actions · relational database design |
-| **Currently learning** | Docker and Docker Compose · test automation with pytest, HTTPX and Playwright |
-| **Next, through the roadmap below** | BDD with pytest-bdd · ISTQB CTFL v4.0 · TypeScript and Playwright Test · Java, Selenium, Cucumber and REST Assured · Jenkins · performance testing with JMeter and k6 |
-| **Later** | Linux, Docker and CI/CD in depth · AWS · Terraform · Kubernetes |
+| **Currently learning** | Docker and Docker Compose · API test automation with pytest and HTTPX |
+| **Next, through the roadmap below** | TypeScript and Playwright Test · BDD |
+| **Later** | ISTQB CTFL v4.0 · Java, Selenium, Cucumber and REST Assured · performance testing with JMeter and k6 · Linux, Docker and CI/CD in depth · AWS · Terraform · Kubernetes |
 
 ---
 
@@ -44,11 +44,10 @@ One real app, automated in the stacks that job ads ask for most.
 
 | Project | What it is | Status |
 |---|---|---|
-| **[vikunja-test-suite](https://github.com/DaniLoBerr/vikunja-test-suite)** | API and UI automation of [Vikunja](https://vikunja.io), a real open-source task app, in Python: my own API client, Playwright with the Page Object Model, permission tests between users, BDD scenarios, a few SQL checks, CI on every pull request and the whole suite running in a container with one command | 🟢 **In progress** |
-| **[istqb-ctfl-v4](https://github.com/DaniLoBerr/istqb-ctfl-v4)** | My study plan and notes for the ISTQB CTFL v4.0 exam | ⏸️ **On hold** until the Vikunja suite is published |
-| **Vikunja suite in TypeScript** | The same end-to-end suite in Playwright Test, with a written comparison between the two | 📋 Planned |
-| **Vikunja suite in Java** | The API tested with REST Assured and the UI with Selenium and Cucumber, with the pipeline also running on Jenkins | 📋 Planned |
-| **Performance tests for Vikunja** | Load scenarios with JMeter and k6, with thresholds in the pipeline | 📋 Planned |
+| **[vikunja-test-suite](https://github.com/DaniLoBerr/vikunja-test-suite)** | Automation of [Vikunja](https://vikunja.io), a real open-source task app, released in versions. v0.1: API tests in Python with pytest, my own API client and CI on every pull request. v0.2: UI tests in TypeScript with Playwright Test and the Page Object Model, the language of Vikunja's own frontend | 🟢 **In progress** |
+| **[istqb-ctfl-v4](https://github.com/DaniLoBerr/istqb-ctfl-v4)** | My study plan and notes for the ISTQB CTFL v4.0 exam | ⏸️ **On hold** |
+| **Vikunja suite in Java** | The API tested with REST Assured and the UI with Selenium and Cucumber, with the pipeline also running on Jenkins | 📋 Later |
+| **Performance tests for Vikunja** | Load scenarios with JMeter and k6, with thresholds in the pipeline | 📋 Later |
 
 ---
 
@@ -60,7 +59,7 @@ I build it one role at a time, from a count of real job ads: only the next role 
 
 | Role | What I work on | Where it takes me |
 |---|---|---|
-| **1. QA Automation / SDET** *(now)* | One real app automated from the outside: API and UI in Python with pytest and Playwright, then the same suite in TypeScript and in Java with Selenium, plus BDD, performance tests, CI and test environments in containers. One thing at a time: ISTQB CTFL comes right after the Python suite, and the theory under what I test (HTTP and APIs, SQL, and how LLMs work, how they fail and how to use them well) comes in where the practice needs it | QA Automation / SDET roles |
+| **1. QA Automation / SDET** *(now)* | First, just enough to get hired: one real app automated from the outside, the API in Python and the UI in TypeScript with Playwright, with CI, released in versions. Then, on the job: ISTQB CTFL, Java with Selenium, performance tests, and the theory under what I test (HTTP and APIs, SQL, and how LLMs work and fail) | QA Automation / SDET roles |
 | **2. Platform** *(direction)* | Linux, Docker and CI/CD in depth, then cloud, infrastructure as code and Kubernetes. Planned in detail when I get there | Owning a team's test infrastructure, then platform engineering |
 | **3. DevSecOps** *(direction)* | Security in the pipeline and in the infrastructure | DevSecOps roles, if it's still the right fit when I get there |
 
@@ -70,7 +69,7 @@ I use AI every day, and I'm explicit about how. In what I'm still learning, I wr
 
 ## 🎓 Background
 
-- **ISTQB Certified Tester Foundation Level (CTFL v4.0)** — *partly studied, not certified yet; next after the Vikunja suite*
+- **ISTQB Certified Tester Foundation Level (CTFL v4.0)** — *partly studied, not certified yet*
 - **BSc Computer Engineering** — Universitat Oberta de Catalunya *(part-time, since 2026)*
 - **Harvard CS50** — CS50x, CS50P (Python), CS50SQL, CS50W *(2024–2025)*
 - **Telecommunications infrastructure certificate** *(2021)*, and a two-month internship supporting a copper-to-fibre migration
