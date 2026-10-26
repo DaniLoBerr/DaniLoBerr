@@ -59,7 +59,7 @@ I build it one role at a time, from a count of real job ads: only the next role 
 
 | Role | What I work on | Where it takes me |
 |---|---|---|
-| **1. QA Automation / SDET** *(now)* | First, just enough to get hired: one real app automated from the outside, the API in Python and the UI in TypeScript with Playwright, with CI, released in versions. Then, on the job: ISTQB CTFL, Java with Selenium, performance tests, and the theory under what I test (HTTP and APIs, SQL, and how LLMs work and fail) | QA Automation / SDET roles |
+| **1. QA Automation / SDET** *(now)* | First, just enough to get hired: one real app automated from the outside, the API in Python and the UI in TypeScript with Playwright, with CI, released in versions. Then: ISTQB CTFL, Java with Selenium, performance tests, and the theory under what I test (HTTP and APIs, SQL, and how LLMs work and fail) | QA Automation / SDET roles |
 | **2. Platform** *(direction)* | Linux, Docker and CI/CD in depth, then cloud, infrastructure as code and Kubernetes. Planned in detail when I get there | Owning a team's test infrastructure, then platform engineering |
 | **3. DevSecOps** *(direction)* | Security in the pipeline and in the infrastructure | DevSecOps roles, if it's still the right fit when I get there |
 
