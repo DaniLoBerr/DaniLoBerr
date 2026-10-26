@@ -45,7 +45,6 @@ One real app, automated in the stacks that job ads ask for most.
 | Project | What it is | Status |
 |---|---|---|
 | **[vikunja-test-suite](https://github.com/DaniLoBerr/vikunja-test-suite)** | Automation of [Vikunja](https://vikunja.io), a real open-source task app, released in versions. v0.1: API tests in Python with pytest, my own API client and CI on every pull request. v0.2: UI tests in TypeScript with Playwright Test and the Page Object Model, the language of Vikunja's own frontend | 🟢 **In progress** |
-| **[istqb-ctfl-v4](https://github.com/DaniLoBerr/istqb-ctfl-v4)** | My study plan and notes for the ISTQB CTFL v4.0 exam | ⏸️ **On hold** |
 | **Vikunja suite in Java** | The API tested with REST Assured and the UI with Selenium and Cucumber, with the pipeline also running on Jenkins | 📋 Later |
 | **Performance tests for Vikunja** | Load scenarios with JMeter and k6, with thresholds in the pipeline | 📋 Later |
 
