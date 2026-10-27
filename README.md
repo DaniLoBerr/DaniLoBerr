@@ -16,11 +16,11 @@ I'm the only QA at a software company in Valencia, Spain, where I built the QA f
 
 ## 💼 Where I am right now
 
-**Software QA Engineer @ Elite Sports 17** *(since January 2026)* — the company's only QA engineer, covering two products, each with a web app and a native Android app. There was no QA function before me: I built it on hands-on testing, and scaled it into an AI-driven process.
+**Software QA Engineer @ Elite Sports 17** *(since January 2026)* — the company's only QA engineer, covering three products, each with a web app and a native Android app. There was no QA function before me: I built it on hands-on testing, and scaled it into an AI-driven process.
 
 - The QA process lives in Git, organised by the phases of the ISTQB test process: a master test plan, the test conditions, more than 260 test cases with traceability, and the results of every run
 - I built and run the execution workflow: AI agents (Claude) execute the test cases through the browser, the API and the Android emulator
-- I verify every candidate defect by hand before it reaches the developers, and triage it as an issue in the product's repository (severity, priority, assignee); every fix gets a confirmation test and regression testing around the change, and one that only partly passes stays open — 300+ defects reported and 220+ fixed and confirmed across both products in five weeks
+- I verify every candidate defect by hand before it reaches the developers, and triage it as an issue in the product's repository (severity, priority, assignee); every fix gets a confirmation test and regression testing around the change, and one that only partly passes stays open — 300+ defects reported and 220+ fixed and confirmed in five weeks
 - I scope and prioritise the testing of each release, and take open product questions to the Tech Lead
 - I also run quality reviews of training datasets for computer-vision models, carried out by AI agents (Claude) against written criteria, with a report per batch: 10,000+ images and 35,000+ annotations reviewed, with 9,000+ errors caught
 
