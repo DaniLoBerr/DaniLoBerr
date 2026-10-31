@@ -1,16 +1,16 @@
 # Hi, I'm Dani 👋
 
-**Software QA Engineer moving into embedded, network and telecom testing.** Test & Validation · AI-Driven Testing · API, Web & Mobile Testing · Python · Linux
+**Software QA Engineer moving into system test and validation.** Test & Validation · AI-Driven Testing · API, Web & Mobile Testing · Python · Linux
 
 I'm the only QA at a software company in Valencia, Spain, where I built the QA function from scratch for three products, two of them for video and live streaming. I run it as an AI-driven process: AI agents execute the tests on web, API and Android, and I verify every finding. Before software I spent nearly a decade running the technical side of live radio programmes, and I earned a certificate in telecommunications infrastructure.
 
-My next step is test and validation work in embedded systems, networks and telecommunications, close to a team that develops the product, while I study Computer Engineering in the same direction.
+My next step is system test and validation, in any sector where hardware and software meet, close to a team that develops the product, while I study Computer Engineering in the same direction.
 
 ---
 
 ## 🎯 What I'm looking for
 
-**Test, validation or integration roles in embedded systems, networks or telecommunications**, with audio and video products as an option, **and QA Engineer or QA Automation roles.** I'm an EU citizen, open to relocating or to a fully remote role.
+**System test, validation or integration roles, in any sector where hardware and software meet.** I'm an EU citizen, open to relocating or to a fully remote role.
 
 📫 **Contact:** [LinkedIn](https://www.linkedin.com/in/daniloberr) · daniellopezberrocal@gmail.com
 
