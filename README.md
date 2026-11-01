@@ -10,7 +10,7 @@ I'm studying a part-time Computer Engineering degree at UOC, and I'd like my nex
 
 ## 🎯 What I'm looking for
 
-**A QA or system validation role where I can write test code and automate tasks, close to the code, in an experienced team I can keep learning from.** I'm an EU citizen, open to relocating or to a fully remote role.
+**A QA or software and system validation role where I can write test code and automate tasks, close to the code, in an experienced team I can keep learning from.** I'm an EU citizen, open to relocating or to a fully remote role.
 
 📫 **Contact:** [LinkedIn](https://www.linkedin.com/in/daniloberr) · daniellopezberrocal@gmail.com
 
