@@ -1,16 +1,16 @@
 # Hi, I'm Dani 👋
 
-**Software QA Engineer growing towards the technical side and development.** AI-Driven Testing · API, Web & Mobile Testing · Python · Linux
+**Software QA Engineer moving into QA Automation / SDET.** AI-Driven Testing · API, Web & Mobile Testing · Python · Linux
 
 I'm the only QA at a software company in Valencia, Spain, where I built the QA function from scratch for three products, two of them for video and live streaming. I run it as an AI-driven process: AI agents execute the tests on web, API and Android, and I verify every finding. Before software I spent nearly a decade running the technical side of live radio programmes and nearly two years in live event sound, and I earned a certificate in telecommunications infrastructure.
 
-I'm studying a part-time Computer Engineering degree at UOC, and I want to grow towards the technical side and development.
+I'm studying a part-time Computer Engineering degree at UOC, and I'd like my next step to be writing test code and automating tasks, in an experienced team.
 
 ---
 
 ## 🎯 What I'm looking for
 
-**A technology role where I can keep learning, close to the people who build the product.** I'm an EU citizen, open to relocating or to a fully remote role.
+**A QA or system validation role where I can write test code and automate tasks, close to the code, in an experienced team I can keep learning from.** I'm an EU citizen, open to relocating or to a fully remote role.
 
 📫 **Contact:** [LinkedIn](https://www.linkedin.com/in/daniloberr) · daniellopezberrocal@gmail.com
 
@@ -61,4 +61,4 @@ I use AI every day, and I'm explicit about how. In what I'm still learning, I wr
 
 For nearly a decade I ran the technical side of live radio programmes: the broadcast equipment, the timing, and the first response when something failed on air. In 2024, at 31, I left because I had stopped growing in that job, and I started studying programming on my own. I moved to Ireland to keep studying and improve my English, and in January 2026 I came back to Spain for my first software job, in QA.
 
-My whole career has been with technical equipment: first sound and radio, then telecommunications, and now software. What I want next is to keep growing towards the technical side and development.
+My whole career has been with technical equipment: first sound and radio, then telecommunications, and now software. What I want next is to write test code and automate tasks.
