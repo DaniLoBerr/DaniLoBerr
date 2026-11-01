@@ -20,7 +20,7 @@ I'm studying a part-time Computer Engineering degree at UOC, and I want to grow 
 
 **Software QA Engineer @ Elite Sports 17** *(since January 2026)* — the company's only QA engineer, covering three products, each with a web app and a native Android app. There was no QA function before me: I built it on hands-on testing, and scaled it into an AI-driven process.
 
-- The QA process lives in Git, organised by the phases of the test process: a master test plan, the test conditions, test cases with traceability, and the results of every run
+- The QA process lives in Git, organised by the phases of the ISTQB test process: a master test plan, the test conditions, test cases with traceability, and the results of every run
 - I built and run the execution workflow: AI agents (Claude) execute the test cases through the browser, the API and the Android emulator, and I test what the emulator can't reproduce on a physical device
 - I verify every candidate defect by hand before it reaches the developers, and triage it as an issue in the product's repository (severity, priority, assignee); every fix gets a confirmation test and regression testing around the change, and one that only partly passes stays open
 - I scope and prioritise the testing of each release
