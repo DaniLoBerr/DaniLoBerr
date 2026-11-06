@@ -1,31 +1,39 @@
 # Hi, I'm Dani 👋
 
-**Software QA Engineer moving into QA Automation / SDET.** AI-Driven Testing · API, Web & Mobile Testing · Python · Linux
+**Software QA Engineer with QA Lead responsibilities, moving into QA Automation / SDET.** AI-Driven Testing · API, Web & Mobile Testing · Python · Linux
 
 I'm the only QA at a software company in Valencia, Spain, where I built the QA function from scratch for three products, two of them for video and live streaming. I run it as an AI-driven process: AI agents execute the tests on web, API and Android, and I verify every finding. Before software I spent nearly a decade running the technical side of live radio programmes and nearly two years in live event sound, and I earned a certificate in telecommunications infrastructure.
 
-I'm studying a part-time Computer Engineering degree at UOC, and I'd like my next step to be writing test code and automating tasks, in an experienced team.
+I'm studying a part-time Computer Engineering degree at UOC. My next step is writing test code and automating tasks, as a QA Automation engineer or SDET.
 
 ---
 
 ## 🎯 What I'm looking for
 
-**A QA or software and system validation role where I can write test code and automate tasks, close to the code, in an experienced team I can keep learning from.** I'm an EU citizen, open to relocating or to a fully remote role.
+**A QA Engineer, QA Automation, SDET or system validation role where I can write test code and automate tasks, close to the code, in an experienced team I can keep learning from.** I'm an EU citizen, open to relocating to the Nordic countries or Ireland, or to a fully remote role.
 
 📫 **Contact:** [LinkedIn](https://www.linkedin.com/in/daniloberr) · daniellopezberrocal@gmail.com
+
+## 🧭 Where I'm heading
+
+QA Automation and SDET first, and over time CI/CD, cloud and platform work. I build towards it a little at a time, in my spare time and with my degree coming first:
+
+- **[vikunja-test-suite](https://github.com/DaniLoBerr/vikunja-test-suite)** — an automated test suite for Vikunja, an open-source task manager, tested from the outside the way a QA team tests an app it didn't write. Started: a local environment in Docker Compose and the first API tests with pytest and HTTPX. Work in progress.
 
 ---
 
 ## 💼 Where I am right now
 
-**Software QA Engineer @ Elite Sports 17** *(since January 2026)* — the company's only QA engineer, covering three products, each with a web app and a native Android app. There was no QA function before me: I built it on hands-on testing, and scaled it into an AI-driven process.
+**Software QA Engineer @ Elite Sports 17** *(since January 2026)* — the company's only QA engineer, working as a QA Engineer with some QA Lead responsibilities, covering three products, each with a web app and a native Android app. There was no QA function before me: I built it on hands-on testing, and scaled it into an AI-driven process. AI agents take most of the testing role; I mainly hold the test management role: planning, monitoring and control, and completion.
 
 - The QA process lives in Git, organised by the phases of the ISTQB test process: a master test plan, the test conditions, test cases with traceability, and the results of every run
-- I built and run the execution workflow: AI agents (Claude) execute the test cases through the browser, the API and the Android emulator, and I test what the emulator can't reproduce on a physical device
-- I verify every candidate defect by hand before it reaches the developers, and triage it as an issue in the product's repository (severity, priority, assignee); every fix gets a confirmation test and regression testing around the change, and one that only partly passes stays open
+- I built and run the execution workflow: AI agents (Claude) execute the test cases through the browser, the API and the Android emulator and draft the results and defects, and I test what the emulator can't reproduce on a physical device
+- I verify by hand every defect the agents find before it is published, approve what reaches development, and triage it as an issue in the product's repository (severity, priority, assignee); every fix gets a confirmation test and regression testing around the change, and one that only partly passes stays open
 - I scope and prioritise the testing of each release
 - I own the public user guide of the video product: I walked through its flows with the app and the real recording device, and I publish its changes
 - I also run quality reviews of training datasets for computer-vision models, carried out by AI agents (Claude) against written criteria, with a report per batch
+
+**What I'm working on now:** taking back the hands-on testing role without letting go of test management, with a learning plan I follow at work: Git in depth, builds and environments, smoke and confirmation testing, API diagnosis, test design techniques, Android debugging with adb and logcat, and risk-based decisions. I'm also preparing the ISTQB CTFL.
 
 ---
 
