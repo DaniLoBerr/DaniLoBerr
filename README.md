@@ -1,6 +1,6 @@
 # Hi, I'm Dani 👋
 
-**Software QA Engineer with QA Lead responsibilities, moving into QA Automation / SDET.** AI-Driven Testing · API, Web & Mobile Testing · Python · Linux
+**Software QA Engineer with QA Lead responsibilities, moving into QA Automation / SDET.** API, Web & Android Testing · AI-Driven Test Execution · Python · pytest · Linux
 
 I'm the only QA at a software company in Valencia, Spain, where I built the QA function from scratch for three products, two of them for video and live streaming. I run it as an AI-driven process: AI agents execute the tests on web, API and Android, and I verify every finding. Before software I spent nearly a decade running the technical side of live radio programmes and nearly two years in live event sound, and I earned a certificate in telecommunications infrastructure.
 
@@ -18,7 +18,11 @@ I'm studying a part-time Computer Engineering degree at UOC. My next step is wri
 
 QA Automation and SDET first, and over time CI/CD, cloud and platform work. I build towards it a little at a time, in my spare time and with my degree coming first:
 
-- **[vikunja-test-suite](https://github.com/DaniLoBerr/vikunja-test-suite)** — an automated test suite for Vikunja, an open-source task manager, tested from the outside the way a QA team tests an app it didn't write. Started: a local environment in Docker Compose and the first API tests with pytest and HTTPX. Work in progress.
+**[vikunja-test-suite](https://github.com/DaniLoBerr/vikunja-test-suite)** — an automated test suite for Vikunja, an open-source task manager, tested from the outside the way a QA team tests an app it didn't write. It's released in versions:
+
+- ✅ **Done:** a reproducible test environment in Docker Compose, pinned to a fixed app version, with scripts that bring it up and tear it down and a test user created through the API; and the first API tests in Python with pytest and HTTPX, on fixtures for the HTTP client and the authentication token.
+- 🔜 **v0.1:** the API suite for projects and tasks, running in CI on every push, with a short test strategy in the README.
+- 🗺️ **v0.2:** end-to-end UI tests in TypeScript with Playwright, also in CI.
 
 ---
 
@@ -33,7 +37,12 @@ QA Automation and SDET first, and over time CI/CD, cloud and platform work. I bu
 - I own the public user guide of the video product: I walked through its flows with the app and the real recording device, and I publish its changes
 - I also run quality reviews of training datasets for computer-vision models, carried out by AI agents (Claude) against written criteria, with a report per batch
 
-**What I'm working on now:** taking back the hands-on testing role without letting go of test management, with a learning plan I follow at work: Git in depth, builds and environments, smoke and confirmation testing, API diagnosis, test design techniques, Android debugging with adb and logcat, and risk-based decisions. I'm also preparing the ISTQB CTFL.
+**What I'm learning and applying at work:** taking back the hands-on testing role without letting go of test management, with a structured learning plan applied to real releases:
+
+- **Test design techniques** on real features and fixes: equivalence partitioning, boundary values, decision tables and state transitions, and selective regression around each change
+- **Technical diagnosis:** API traffic in DevTools, status codes and permissions, placing each failure in its layer (web, API, data or environment), Android debugging with adb and logcat, and Git to know exactly which build and which change I'm testing
+- **Reviewing AI output with judgement:** my own catalogue of how the agents get things wrong, practice reviews with seeded defects, and one extra test the AI didn't list in each daily check, so every defect I sign off is one I could have found myself
+- **ISTQB CTFL v4.0** in preparation alongside it; next in the plan, test automation with pytest
 
 ---
 
@@ -42,6 +51,7 @@ QA Automation and SDET first, and over time CI/CD, cloud and platform work. I bu
 | | |
 |---|---|
 | **Using at work** | Claude (AI agents) · Git and GitHub (branches, pull requests, issues) · Postman · Chrome DevTools · Android Studio emulator · Linux (Ubuntu) · API testing · mobile (Android) testing · test planning and test case design · defect management |
+| **Building in my own project** | Python · pytest · HTTPX · Docker Compose · API testing |
 | **Studied (Harvard CS50)** | Python · C · SQL · pytest · Django · GitHub Actions · relational database design |
 
 ---
@@ -59,7 +69,7 @@ I use AI every day, and I'm explicit about how. In what I'm still learning, I wr
 - **Telecommunications infrastructure certificate** *(2021)*, and a one-month internship supporting a copper-to-fibre migration
 - **Higher Vocational Degree in Audiovisual Sound** *(2013)*
 - **Sound technician in live radio at Cadena COPE** *(2015–2024)*, most of that time as lead sound technician
-- **Testing and quality control of professional sound equipment at Rent Music** *(2013–2014)*
+- **Supporting testing and quality control of professional sound equipment at Rent Music** *(2013–2014)*
 - **Six months in Cork, Ireland** *(2025–2026)*, where I studied English
 - **Languages:** Spanish (native) · English (C1, full professional proficiency)
 
