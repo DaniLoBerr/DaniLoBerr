@@ -10,7 +10,7 @@ I'm studying a part-time Computer Engineering degree at UOC. My next step is wri
 
 ## 🎯 What I'm looking for
 
-**A QA Engineer, QA Automation, SDET or system validation role where I can write test code and automate tasks, close to the code, in an experienced team I can keep learning from.** I'm an EU citizen, open to relocating to the Nordic countries or Ireland, or to a fully remote role.
+**A QA Engineer, QA Automation, SDET or system validation role where I can write test code and automate tasks, close to the code, in an experienced team I can keep learning from.** I'm an EU citizen, open to relocation or to a fully remote role.
 
 📫 **Contact:** [LinkedIn](https://www.linkedin.com/in/daniloberr) · daniellopezberrocal@gmail.com
 
