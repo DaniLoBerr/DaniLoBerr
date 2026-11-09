@@ -4,13 +4,13 @@
 
 I'm the only QA at a software company in Valencia, Spain, where I built the QA function from scratch for three products, two of them for video and live streaming. I run it as an AI-driven process: AI agents execute the tests on web, API and Android, and I verify every finding. Before software I spent nearly a decade running the technical side of live radio programmes and nearly two years in live event sound, and I earned a certificate in telecommunications infrastructure.
 
-I'm studying a part-time Computer Engineering degree at UOC. My next step is writing test code and automating tasks, as a QA Automation engineer or SDET.
+I'm studying a part-time Computer Engineering degree at UOC. My next step is writing test code and automating tasks, as a QA Automation engineer or SDET, and growing towards test infrastructure.
 
 ---
 
 ## 🎯 What I'm looking for
 
-**A QA Automation or SDET role where I write test code and work close to the infrastructure that runs it: CI/CD, test environments, networks or embedded systems**, in an experienced team I can keep learning from. I'm also open to QA Engineer roles, especially fully remote. I'm an EU citizen, open to relocation or to a fully remote role.
+**A QA Automation or SDET role where I write test code and work close to the infrastructure that runs it: CI/CD, test environments, networks or embedded systems**, in an experienced team I can keep learning from. I'm also open to QA Engineer roles. I'm an EU citizen, open to relocation or to a fully remote role.
 
 📫 **Contact:** [LinkedIn](https://www.linkedin.com/in/daniloberr) · daniellopezberrocal@gmail.com
 
@@ -18,20 +18,27 @@ I'm studying a part-time Computer Engineering degree at UOC. My next step is wri
 
 ### SDET → Platform 2027
 
-**[vikunja-test-suite](https://github.com/DaniLoBerr/vikunja-test-suite)** — an automated test suite for Vikunja, an open-source task manager, tested from the outside the way a QA team tests an app it didn't write. It grows one version at a time:
+**[vikunja-test-suite](https://github.com/DaniLoBerr/vikunja-test-suite)** — an automated test suite for Vikunja, an open-source task manager, tested from the outside the way a QA team tests an app it didn't write. It grows one version at a time, from API tests in CI towards the infrastructure that runs them, and each version is published as a tagged release.
 
-| Version | What it adds |
-|---|---|
-| ✅ Done | A reproducible test environment in Docker Compose, pinned to a fixed app version, and the first API tests in Python with pytest and HTTPX |
-| 🔜 v0.1 | The API suite for projects and tasks, running in CI on every push, with a short test strategy |
-| v0.2 | The same API cases in Robot Framework, the suite's network traffic analysed with Wireshark, and the pipeline also running in Jenkins |
-| v0.3 | End-to-end UI tests in TypeScript with Playwright |
-| v0.4 | The whole suite in its own container: one command brings everything up and runs it |
-| v0.5 | Bash tooling for the suite and Linux networking diagnostics |
-| v0.6 | Performance tests with k6, with thresholds that fail the build |
-| v0.7 | A cloud test environment on AWS, built with Terraform and torn down after each run |
-| v0.8 | Vikunja and the suite running on Kubernetes |
-| v1.0 | Security testing: permissions between users and an OWASP ZAP scan in CI |
+**✅ Done — the environment and the first tests.** Vikunja runs locally in Docker Compose, pinned to a fixed version. One script brings it up and creates a test user through the API; another tears it down with its data. The first API tests are in Python with pytest and HTTPX, on fixtures for the HTTP client and the authentication token.
+
+**🔜 v0.1 — API suite and CI** *(in progress)*. The API suite for projects, and the task operations that depend on them: positive, negative and boundary cases, and 401 and 403 checks, with responses validated with pydantic. A custom API client and test markers make the suite reusable, and test data is created and cleaned up so no test depends on the order they run in. It runs on GitHub Actions with Vikunja inside the job, and a green run is required to merge. The README explains the test strategy: what is tested through the API, what isn't, and why.
+
+**v0.2 — Robot Framework, Wireshark and Jenkins.** The project cases again in Robot Framework with RequestsLibrary, with their HTML report in CI. The traffic between the tests and Vikunja captured with Wireshark and tshark inside Docker, with a note on diagnosing a failure from a real capture. And the same pipeline as a Jenkinsfile on a local Jenkins, compared with GitHub Actions.
+
+**v0.3 — UI tests with Playwright.** End-to-end tests in TypeScript with Playwright and the Page Object Model, covering the main flows: login, projects, tasks, filtering and deleting. State is prepared through the API and checked through the UI, to keep the suite fast and stable, and the UI tests run in CI next to the API ones. The README adds what is tested through the UI, what through the API, and what never.
+
+**v0.4 — The suite in a container.** Its own Dockerfile and a test service in Docker Compose: one command brings Vikunja up and runs the suite, the same locally as in CI.
+
+**v0.5 — Linux and Bash.** Bash scripts to bring the suite up, seed data and collect logs, checked with shellcheck and used by CI, and a note on following a request end to end with `ip`, `ss`, `curl`, `dig` and `tcpdump`.
+
+**v0.6 — Performance with k6.** Load, stress and spike scenarios against the API with realistic per-user data, running in CI with thresholds that fail the build, and a report with throughput, p95, p99 and where Vikunja starts to degrade.
+
+**v0.7 — A cloud test environment with Terraform.** Vikunja on AWS, built from code with Terraform. The suite runs against the local or the cloud environment by changing only variables, and a CI job creates the environment, runs the suite and destroys it.
+
+**v0.8 — Kubernetes.** Vikunja on a local cluster with its own manifests, and the suite running against it as a Kubernetes Job.
+
+**v1.0 — Security testing.** Authorization tested from the outside: a guest can't write, and nobody sees what wasn't shared with them. A basic OWASP ZAP scan of the API runs in CI, with its report on every run.
 
 ---
 
