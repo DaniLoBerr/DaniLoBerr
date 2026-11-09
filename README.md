@@ -14,7 +14,9 @@ I'm studying a part-time Computer Engineering degree at UOC. My next step is wri
 
 📫 **Contact:** [LinkedIn](https://www.linkedin.com/in/daniloberr) · daniellopezberrocal@gmail.com
 
-## 🧭 What I'm building: SDET → Platform 2027
+## 🧭 What I'm building
+
+### SDET → Platform 2027
 
 **[vikunja-test-suite](https://github.com/DaniLoBerr/vikunja-test-suite)** — an automated test suite for Vikunja, an open-source task manager, tested from the outside the way a QA team tests an app it didn't write. It grows one version at a time:
 
