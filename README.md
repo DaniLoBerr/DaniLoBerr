@@ -14,39 +14,24 @@ I'm studying a part-time Computer Engineering degree at UOC. My next step is wri
 
 📫 **Contact:** [LinkedIn](https://www.linkedin.com/in/daniloberr) · daniellopezberrocal@gmail.com
 
-## 🧭 My learning roadmap
+## 🧭 What I'm building
 
-QA Automation and SDET first, growing towards test infrastructure and platform work. I build it a little at a time, in my spare time and with my degree coming first, on one project I can show: **[vikunja-test-suite](https://github.com/DaniLoBerr/vikunja-test-suite)**, an automated test suite for Vikunja, an open-source task manager, tested from the outside the way a QA team tests an app it didn't write. Every step ships as a version.
+**[vikunja-test-suite](https://github.com/DaniLoBerr/vikunja-test-suite)** — an automated test suite for Vikunja, an open-source task manager, tested from the outside the way a QA team tests an app it didn't write. It grows one version at a time:
 
-**Always:** two interview-style questions on every ticket I close, a pull request description that says what is tested and why, and any real Vikunja bug I find reported upstream.
+| Version | What it adds |
+|---|---|
+| ✅ Done | A reproducible test environment in Docker Compose, pinned to a fixed app version, and the first API tests in Python with pytest and HTTPX |
+| 🔜 v0.1 | The API suite for projects and tasks, running in CI on every push, with a short test strategy |
+| v0.2 | The same API cases in Robot Framework, the suite's network traffic analysed with Wireshark, and the pipeline also running in Jenkins |
+| v0.3 | End-to-end UI tests in TypeScript with Playwright |
+| v0.4 | The whole suite in its own container: one command brings everything up and runs it |
+| v0.5 | Bash tooling for the suite and Linux networking diagnostics |
+| v0.6 | Performance tests with k6, with thresholds that fail the build |
+| v0.7 | A cloud test environment on AWS, built with Terraform and torn down after each run |
+| v0.8 | Vikunja and the suite running on Kubernetes |
+| Later | Security testing: permissions between users and an OWASP ZAP scan in CI |
 
-### A · QA Automation
-
-| | Version | What it adds |
-|---|---|---|
-| ✅ | Done | A reproducible test environment in Docker Compose, pinned to a fixed app version, and the first API tests in Python with pytest and HTTPX |
-| 🔜 1 | **v0.1** | The API suite for projects and tasks, with a reusable client, test data that cleans up after itself, CI on every push and a short test strategy |
-| 2 | — | Show it: profile, CV and the first QA Automation applications |
-| 3 | **v0.2** | The same API cases in **Robot Framework**, the suite's traffic captured and diagnosed with **Wireshark**, and the pipeline also running in **Jenkins** |
-| 4 | **v0.3** | End-to-end UI tests in **TypeScript with Playwright**: Page Object Model, state prepared through the API, and UI tests in CI |
-
-### B · Towards platform
-
-| | Version | What it adds |
-|---|---|---|
-| 5 | **v0.4** | **Docker** in depth: the suite in its own container, one command to bring everything up and run it |
-| 6 | **v0.5** | **Linux and Bash**: scripts for the suite, and following a request end to end with Linux networking tools |
-| 7 | **v0.6** | **Performance testing with k6**, in CI, with thresholds that fail the build |
-| 8 | **v0.7** | **Cloud with Terraform**: Vikunja on AWS from code, a second environment, and CI that deploys, tests and tears it down |
-| 9 | **v0.8** | **Kubernetes**: Vikunja in a local cluster, and the suite running as a Job against it |
-
-### C · Also on the map
-
-| | Project | What it adds |
-|---|---|---|
-| 10 | vikunja-test-suite | **Security testing**: permissions between users (OWASP API1) and an OWASP ZAP scan in CI |
-| 11 | A new embedded test bench | A **Raspberry Pi** with a small service, tested with pytest and Robot Framework over the network and the serial port, with Wireshark and a little C |
-| 12 | The suite in Java | The same cases in **Java**: JUnit 5, REST Assured, Selenium and Cucumber |
+**Also planned:** an embedded test bench on a Raspberry Pi, tested with pytest and Robot Framework over the network and the serial port, and the same suite in Java with REST Assured, Selenium and Cucumber.
 
 ---
 
