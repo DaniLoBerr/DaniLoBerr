@@ -29,7 +29,7 @@ I'm studying a part-time Computer Engineering degree at UOC. My next step is wri
 | v0.6 | Performance tests with k6, with thresholds that fail the build |
 | v0.7 | A cloud test environment on AWS, built with Terraform and torn down after each run |
 | v0.8 | Vikunja and the suite running on Kubernetes |
-| v0.9 | Security testing: permissions between users and an OWASP ZAP scan in CI |
+| v1.0 | Security testing: permissions between users and an OWASP ZAP scan in CI |
 
 ---
 
