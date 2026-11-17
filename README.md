@@ -1,22 +1,22 @@
 # Hi, I'm Dani 👋
 
-**Software QA Engineer with QA Lead responsibilities, moving into QA Automation / SDET.** Test Automation · Python · pytest · API Testing · Docker · Linux · AI-Driven Testing
+**Software QA Engineer with QA Lead responsibilities.** AI-Driven Testing · Test Strategy · API, Web & Android · Test Automation · Python · pytest · SQL · Docker · Linux
 
 I'm the only QA at a software company in Valencia, Spain, where I built the QA function from scratch for three products, two of them for video and live streaming. I run it as an AI-driven process: AI agents execute the tests on web, API and Android, and I verify every finding. Before software I spent nearly a decade running the technical side of live radio programmes and nearly two years in live event sound, and I earned a certificate in telecommunications infrastructure.
 
-I'm studying a part-time Computer Engineering degree at UOC. My next step is writing test code and automating tasks, as a QA Automation engineer or SDET, and growing towards test infrastructure.
+I'm studying a part-time Computer Engineering degree at UOC, and in my free time I'm building my test automation with an open-source test suite.
 
 ---
 
 ## 🎯 What I'm looking for
 
-**A QA Automation or SDET role inside a QA team, where I write test code, work close to the CI/CD and test environments that run it, and keep learning from more experienced engineers.** I'm an EU citizen, open to relocation or to a fully remote role.
+**A QA Engineer role inside an established QA team with mature engineering practices, where I can grow my test design and automation and learn from more experienced engineers.** In return, I'd bring an end-to-end view of the test process, from planning to the confirmation test, and real experience using AI agents in testing with the checks they need. I'm an EU citizen, open to relocation or to a fully remote role.
 
 📫 **Contact:** [LinkedIn](https://www.linkedin.com/in/daniloberr) · daniellopezberrocal@gmail.com
 
 ## 🧭 What I'm building
 
-### SDET 2027
+### The roadmap
 
 **[vikunja-test-suite](https://github.com/DaniLoBerr/vikunja-test-suite)** — an automated test suite for Vikunja, an open-source task manager, tested from the outside the way a QA team tests an app it didn't write. It grows one version at a time, from API tests in CI towards the infrastructure that runs them, and each version is published as a tagged release.
 
@@ -58,7 +58,7 @@ I'm studying a part-time Computer Engineering degree at UOC. My next step is wri
 - **Test design techniques** on real features and fixes: equivalence partitioning, boundary values, decision tables and state transitions, and selective regression around each change
 - **Technical diagnosis:** API traffic in DevTools, status codes and permissions, placing each failure in its layer (web, API, data or environment), Android debugging with adb and logcat, and Git to know exactly which build and which change I'm testing
 - **Reviewing AI output with judgement:** my own catalogue of how the agents get things wrong, practice reviews with seeded defects, and one extra test the AI didn't list in each daily check, so every defect I sign off is one I could have found myself
-- **ISTQB CTFL v4.0** in preparation alongside it; next in the plan, test automation with pytest
+- **ISTQB CTFL v4.0** in preparation alongside it
 
 ---
 
@@ -95,4 +95,4 @@ I use AI every day, and I'm explicit about how. In what I'm still learning, I wr
 
 For nearly a decade I ran the technical side of live radio programmes: the broadcast equipment, the timing, and the first response when something failed on air. In 2024, at 31, I left because I had stopped growing in that job, and I started studying programming on my own. I moved to Ireland to keep studying and improve my English, and in January 2026 I came back to Spain for my first software job, in QA.
 
-My whole career has been with technical equipment: first sound and radio, then telecommunications, and now software. What I want next is to write test code and automate tasks.
+My whole career has been with technical equipment: first sound and radio, then telecommunications, and now software. What I want next is to keep growing in QA inside a team I can learn from, writing more test code along the way.
