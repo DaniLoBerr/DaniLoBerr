@@ -1,8 +1,8 @@
 # Hi, I'm Dani 👋
 
-**Software QA Engineer with QA Lead responsibilities.** AI-Driven Testing · Test Strategy · API, Web & Android · Test Automation · Python · pytest · SQL · Docker · Linux
+**Software QA Engineer with QA Lead responsibilities.** AI-Driven Testing · Test Strategy · API, Web, Android & iOS · Test Automation · Python · pytest · SQL · Docker · Linux
 
-I'm the only QA at a software company in Valencia, Spain, where I built the QA function from scratch for three products, two of them for video and live streaming. I run it as an AI-driven process: AI agents execute the tests on web, API and Android, and I verify every finding. Before software I spent nearly a decade running the technical side of live radio programmes and nearly two years in live event sound, and I earned a certificate in telecommunications infrastructure.
+I'm the only QA at a software company in Valencia, Spain, where I built the QA function from scratch for three products, two of them for video and live streaming. I run it as an AI-driven process: AI agents execute the tests on web, API, Android and iOS, and nothing reaches development without my sign-off. Before software I spent nearly a decade running the technical side of live radio programmes and nearly two years in live event sound, and I earned a certificate in telecommunications infrastructure.
 
 I'm studying a part-time Computer Engineering degree at UOC, and in my free time I'm building my test automation with an open-source test suite.
 
@@ -42,13 +42,14 @@ I'm studying a part-time Computer Engineering degree at UOC, and in my free time
 
 ## 💼 Where I am right now
 
-**Software QA Engineer @ Elite Sports 17** *(since January 2026)* — the company's only QA engineer, working as a QA Engineer with some QA Lead responsibilities, covering three products, each with a web app and a native Android app. There was no QA function before me: I built it on hands-on testing, and scaled it into an AI-driven process. AI agents take most of the test execution; I cover the test management activities of the ISTQB process: planning, monitoring and control, and completion.
+**Software QA Engineer @ Elite Sports 17** *(since January 2026)* — the company's only QA engineer, working as a QA Engineer with some QA Lead responsibilities, covering three products, each with a web app and native mobile apps (Android and iOS). There was no QA function before me: I built it on hands-on testing, and scaled it into an AI-driven process. AI agents take most of the test execution; I cover the test management activities of the ISTQB process: planning, monitoring and control, and completion.
 
 - The QA process lives in Git, organised by the phases of the ISTQB test process: a master test plan, the test conditions, test cases with traceability, and the results of every run
-- I built and run the execution workflow: AI agents (Claude) execute the test cases through the browser, the API and the Android emulator and draft the results and defects, and I test what the emulator can't reproduce on a physical device
-- I verify by hand every defect the agents find before it is published, approve what reaches development, and triage it as an issue in the product's repository (severity, priority, assignee); every fix gets a confirmation test and regression testing around the change, and one that only partly passes stays open
-- I audited my own QA process with metrics from Git, GitHub and AI usage, and I lead a phased plan to improve it: risk-based verification tiers, batch approval, WIP limits, acceptance sampling, and new tooling in rollout (Playwright, Hurl, Maestro, axe-core, visual regression)
-- I orchestrate the AI agents, one session per product plus a coordinator, with security guardrails as code: a Claude Code hook that blocks forbidden commands, covered by its own tests and replayed against real commands with zero false positives
+- I built and run the execution workflow: AI agents (Claude) execute the test cases through the browser, the API, the Android emulator and Expo's cloud iOS Simulator and draft the results and defects; I test what emulators can't reproduce on a physical device, and walk a critical flow by hand most days
+- Nothing reaches development without my sign-off: I verify high-severity defects by hand, approve what is published, and triage it as an issue in the product's repository (severity, priority, assignee); every fix gets a confirmation test and regression testing around the change, and one that only partly passes stays open
+- I audited my own QA process with metrics from Git, GitHub and AI usage, and I lead the improvement plan, now in use: risk-based testing on each product's critical flows (including role-based access control), risk-based verification tiers with independent AI re-runs, an adversarial reviewer and weekly acceptance sampling, WIP limits and batch approval
+- Over the coming weeks, test automation along the test pyramid: Hurl API smoke tests after each deployment (in pilot), then Playwright web flows with visual regression and axe-core accessibility checks, and Maestro for Android
+- I orchestrate the AI agents, one session per product plus a coordinator, with security guardrails as code (a Claude Code hook that blocks forbidden commands, covered by its own tests and replayed against real commands with zero false positives) and AI cost control: model routing by task and token metrics reviewed weekly
 - I scope and prioritise the testing of each release
 - I own the public user guide of the video product: I walked through its flows with the app and the real recording device, and I publish its changes
 - I also run quality reviews of training datasets for computer-vision models, carried out by AI agents (Claude) against written criteria, with a report per batch
