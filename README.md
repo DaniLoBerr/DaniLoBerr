@@ -32,7 +32,7 @@ A sequence of courses and official certifications, from using AI well and the sy
 | 8 · DevSecOps | How do you protect it all from the inside? | CKS · AWS Solutions Architect – Associate · AWS Security – Specialty |
 | 9 · Secure AI | How is AI built and protected? | — |
 
-**Now:** block 1, using AI.
+**Now:** finishing the first release of my API test suite, with CI on GitHub Actions. Then block 1.
 
 ---
 
