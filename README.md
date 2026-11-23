@@ -1,16 +1,16 @@
 # Hi, I'm Dani 👋
 
-**Software QA Engineer with QA Lead responsibilities.** AI-Driven Testing · Test Strategy · API, Web, Android & iOS · Test Automation · Python · pytest · SQL · Docker · Linux
+**Technical support & IT operations, on my way to cloud engineering.** Troubleshooting · Linux · Docker · APIs · Python
 
-I'm the only QA at a software company in Valencia, Spain, where I built the QA function from scratch for three products, two of them for video and live streaming. I run it as an AI-driven process: AI agents execute the tests on web, API, Android and iOS, and nothing reaches development without my sign-off. Before software I spent nearly a decade running the technical side of live radio programmes and nearly two years in live event sound, and I earned a certificate in telecommunications infrastructure.
+I'm the first line of technical diagnosis at a software company in Valencia, Spain: every issue across our three products (web, REST API, Android and iOS) goes through me before it reaches the developers. I reproduce it, find the layer where it fails (network, API, permissions or the app) and track it as a ticket until the fix is confirmed. Before software I spent nearly a decade running the technical side of live radio, where I was the first response when equipment failed on air, and I earned a certificate in telecommunications infrastructure.
 
-I'm studying a part-time Computer Engineering degree at UOC, and in my free time I'm studying towards DevSecOps: platform, cloud and security, with official certifications along the way.
+I'm studying a part-time Computer Engineering degree at UOC, and in my free time I'm studying towards cloud engineering and DevSecOps, with official certifications along the way.
 
 ---
 
 ## 🎯 What I'm looking for
 
-**A QA Engineer role inside an established QA team with mature engineering practices, where I can grow my test design and automation and learn from more experienced engineers.** In return, I'd bring an end-to-end view of the test process, from planning to the confirmation test, and real experience using AI agents in testing with the checks they need. I'm an EU citizen, open to relocation or to a fully remote role.
+**A technical support, NOC or IT operations role inside a team, where I can grow into infrastructure and cloud and learn from more experienced engineers.** In return, I'd bring calm, structured troubleshooting, learned on live air and applied to software, real experience tracking incidents as tickets until they're closed, and the habit of documenting for users. I'm an EU citizen, Spanish native with English C1, open to relocation or to a fully remote role.
 
 📫 **Contact:** [LinkedIn](https://www.linkedin.com/in/daniloberr) · daniellopezberrocal@gmail.com
 
@@ -38,19 +38,14 @@ A sequence of courses and official certifications, from using AI well and the sy
 
 ## 💼 Where I am right now
 
-**Software QA Engineer @ Elite Sports 17** *(since January 2026)* — the company's only QA engineer, working as a QA Engineer with some QA Lead responsibilities, covering three products, each with a web app and native mobile apps (Android and iOS). There was no QA function before me: I built it on hands-on testing, and scaled it into an AI-driven process. AI agents take most of the test execution; I cover the test management activities of the ISTQB process: planning, monitoring and control, and completion.
+**Software QA Engineer @ Elite Sports 17** *(since January 2026)* — the first line of technical diagnosis for three products, each with a web app, a REST API and native mobile apps (Android and iOS).
 
-- The QA process lives in Git, organised by the phases of the ISTQB test process: a master test plan, the test conditions, test cases with traceability, and the results of every run
-- I built and run the execution workflow: AI agents (Claude) execute the test cases through the browser, the API, the Android emulator and Expo's cloud iOS Simulator and draft the results and defects; I test what emulators can't reproduce on a physical device, and walk a critical flow by hand most days
-- Nothing reaches development without my sign-off: I verify high-severity defects by hand, approve what is published, and triage it as an issue in the product's repository (severity, priority, assignee); every fix gets a confirmation test and regression testing around the change, and one that only partly passes stays open
-- I audited my own QA process with metrics from Git, GitHub and AI usage, and I lead the improvement plan, now in use: risk-based testing on each product's critical flows (including role-based access control), risk-based verification tiers with independent AI re-runs, an adversarial reviewer and weekly acceptance sampling, WIP limits and batch approval
-- Over the coming weeks, test automation along the test pyramid: Hurl API smoke tests after each deployment (in pilot), then Playwright web flows with visual regression and axe-core accessibility checks, and Maestro for Android
-- I orchestrate the AI agents, one session per product plus a coordinator, with security guardrails as code (a Claude Code hook that blocks forbidden commands, covered by its own tests and replayed against real commands with zero false positives) and AI cost control: model routing by task and token metrics reviewed weekly
-- I scope and prioritise the testing of each release
-- I own the public user guide of the video product: I walked through its flows with the app and the real recording device, and I publish its changes
-- I also run quality reviews of training datasets for computer-vision models, carried out by AI agents (Claude) against written criteria, with a report per batch
-
-**What I'm learning at work:** the tools the improvement plan brings in, starting with Hurl for API smoke tests, then Playwright and Maestro.
+- Troubleshoot and reproduce incidents: network traffic and status codes in Chrome DevTools, API calls in Postman, adb and logcat on emulators and physical devices
+- Track every incident as a ticket in the product's repository: verify it, set severity and priority, escalate it to the right developer and confirm the fix before closing it. 300+ issues reported and 220+ resolved and confirmed
+- Work daily on Linux (Ubuntu) with Git and the terminal
+- Own the public user guide of the video product: I walked through its flows with the app and the real recording device, and I publish its changes
+- Built the company's QA process from scratch and run it with AI agents (Claude Code), with security guardrails as code: a hook that blocks forbidden commands, covered by its own tests
+- Audited that process with metrics from Git, GitHub and AI usage, and lead its improvement plan
 
 ---
 
@@ -58,7 +53,7 @@ A sequence of courses and official certifications, from using AI well and the sy
 
 | | |
 |---|---|
-| **Using at work** | Claude and Claude Code (AI agents, hooks) · Git and GitHub (branches, pull requests, issues) · Postman · Chrome DevTools · Android Studio emulator · Linux (Ubuntu) · API testing · mobile (Android) testing · test planning and test case design · defect management |
+| **Using at work** | Linux (Ubuntu) · Chrome DevTools · Postman · adb and logcat · Git and GitHub (branches, pull requests, issues) · Claude and Claude Code (AI agents, hooks) · incident triage and ticketing · user documentation |
 | **Hands-on outside work** | Python · pytest · HTTPX · Docker Compose · Bash · API testing |
 | **Studied (Harvard CS50)** | Python · C · SQL · pytest · Django · GitHub Actions · relational database design |
 
@@ -87,4 +82,4 @@ I use AI every day, and I'm explicit about how. In what I'm still learning, I wr
 
 For nearly a decade I ran the technical side of live radio programmes: the broadcast equipment, the timing, and the first response when something failed on air. In 2024, at 31, I left because I had stopped growing in that job, and I started studying programming on my own. I moved to Ireland to keep studying and improve my English, and in January 2026 I came back to Spain for my first software job, in QA.
 
-My whole career has been with technical equipment: first sound and radio, then telecommunications, and now software. What I want next is to grow from QA towards platform, cloud and security, all the way to DevSecOps, and that's what I study in my free time.
+My whole career has been with technical equipment: first sound and radio, then telecommunications, and now software. What I want next is to grow into infrastructure and cloud, starting from technical support and operations, all the way to DevSecOps, and that's what I study in my free time.
