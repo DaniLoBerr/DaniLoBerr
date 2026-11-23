@@ -40,7 +40,7 @@ A sequence of courses and official certifications, from using AI well and the sy
 
 **Software QA Engineer @ Elite Sports 17** *(since January 2026)* — the first line of technical diagnosis for three products, each with a web app, a REST API and native mobile apps (Android and iOS).
 
-- Troubleshoot and reproduce incidents: network traffic and status codes in Chrome DevTools, API calls in Postman, adb and logcat on emulators and physical devices
+- Troubleshoot and reproduce incidents: network traffic and status codes in Chrome DevTools, API calls in Postman, and the Android emulator or a physical device
 - Track every incident as a ticket in the product's repository: verify it, set severity and priority, escalate it to the right developer and confirm the fix before closing it. 300+ issues reported and 220+ resolved and confirmed
 - Work daily on Linux (Ubuntu) with Git and the terminal
 - Own the public user guide of the video product: I walked through its flows with the app and the real recording device, and I publish its changes
@@ -53,7 +53,7 @@ A sequence of courses and official certifications, from using AI well and the sy
 
 | | |
 |---|---|
-| **Using at work** | Linux (Ubuntu) · Chrome DevTools · Postman · adb and logcat · Git and GitHub (branches, pull requests, issues) · Claude and Claude Code (AI agents, hooks) · incident triage and ticketing · user documentation |
+| **Using at work** | Linux (Ubuntu) · Chrome DevTools · Postman · Android emulator · Git and GitHub (branches, pull requests, issues) · Claude and Claude Code (AI agents, hooks) · incident triage and ticketing · user documentation |
 | **Hands-on outside work** | Python · pytest · HTTPX · Docker Compose · Bash · API testing |
 | **Studied (Harvard CS50)** | Python · C · SQL · pytest · Django · GitHub Actions · relational database design |
 
