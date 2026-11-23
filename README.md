@@ -16,12 +16,20 @@ I'm studying a part-time Computer Engineering degree at UOC, and in my free time
 
 ## 🧭 What I'm studying
 
-### From zero to DevSecOps, with AI *(since November 2026)*
+### From zero to DevSecOps *(since November 2026)*
 
-A sequence of courses and official certifications, from using AI well and the systems fundamentals to cloud, Kubernetes and security. Each block answers one question:
+A ladder of roles, from the systems fundamentals to cloud, Kubernetes and security, with official certifications as the milestones:
 
-| Block | The question | Certification |
+| Step | Where it leads | Certifications |
 |---|---|---|
+| Foundations | Linux, networking, Git, shell scripting and Docker | LFCS |
+| 1 | Junior Cloud / DevOps Engineer, on AWS | AWS Solutions Architect – Associate · Terraform Associate |
+| 2 | DevOps / Platform Engineer | CKA |
+| 3 | DevSecOps / Cloud Security Engineer | CompTIA Security+ · CKS · AWS Security – Specialty |
+
+**Now:** the foundations, starting with KodeKloud's DevOps Pre-Requisite course.
+
+---|---|---|
 | 1 · Using AI | How do I work with AI? | — |
 | 2 · Systems fundamentals | What does everything run on? | LFCS |
 | 3 · Containers and CI/CD | How is software delivered? | GitHub Actions *(optional)* |
