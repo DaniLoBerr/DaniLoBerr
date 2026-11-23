@@ -29,19 +29,6 @@ A ladder of roles, from the systems fundamentals to cloud, Kubernetes and securi
 
 **Now:** the foundations, starting with KodeKloud's DevOps Pre-Requisite course.
 
----|---|---|
-| 1 · Using AI | How do I work with AI? | — |
-| 2 · Systems fundamentals | What does everything run on? | LFCS |
-| 3 · Containers and CI/CD | How is software delivered? | GitHub Actions *(optional)* |
-| 4 · Cloud (AWS) | Where does it run? | AWS Cloud Practitioner |
-| 5 · Infrastructure as code | How do you build it without doing it by hand? | Terraform Associate |
-| 6 · Kubernetes | How is it managed at scale? | CKA |
-| 7 · Security | What can go wrong? | CompTIA Security+ |
-| 8 · DevSecOps | How do you protect it all from the inside? | CKS · AWS Solutions Architect – Associate · AWS Security – Specialty |
-| 9 · Secure AI | How is AI built and protected? | — |
-
-**Now:** finishing the first release of my API test suite, with CI on GitHub Actions. Then block 1.
-
 ---
 
 ## 💼 Where I am right now
