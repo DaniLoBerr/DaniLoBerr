@@ -1,6 +1,6 @@
 # Hi, I'm Dani 👋
 
-**Cloud & DevOps Engineer in training (AWS).** Linux · Python · Git · Docker · CI/CD · Software QA, troubleshooting & incident triage
+**Cloud & DevOps Engineer in training (AWS).** Linux · Python · Git · CI/CD · Software QA, troubleshooting & incident triage
 
 I'm a software QA engineer training to become a cloud engineer on AWS. My daily work at a software company in Valencia, Spain, is diagnosing failures across web, API and mobile and triaging every incident until the fix is confirmed. Outside work, I'm learning the full cloud stack in order, one hands-on KodeKloud course at a time. Before software, I spent nearly a decade running live radio broadcasts, where a failure is heard on air at that very moment.
 
