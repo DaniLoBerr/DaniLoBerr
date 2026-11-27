@@ -16,9 +16,9 @@ I'm a software QA engineer training to become a cloud engineer on AWS. My daily 
 
 ## 🧭 What I'm studying
 
-### Path to Junior AWS Cloud Engineer *(since November 2026)*
+### My path: from Junior Cloud to Platform Engineer on AWS *(since November 2026)*
 
-First the basics of every technology in the stack, each course building on the previous ones; then the depth, with official certifications. One stack: AWS.
+First the basics of every technology in the stack, each course building on the previous ones; then the depth, with official certifications. After that, growing from my first cloud job towards platform engineering, with security as my specialty. One stack: AWS.
 
 **Phase 1 · The full stack of a cloud engineer**
 
@@ -46,8 +46,17 @@ First the basics of every technology in the stack, each course building on the p
 | ⬜ | AWS Certified Solutions Architect – Associate |
 | ⬜ | HashiCorp Certified: Terraform Associate |
 | ⬜ | Linux Foundation Certified System Administrator (LFCS) |
+| ⬜ | Certified Kubernetes Administrator (CKA) |
+| ⬜ | Prometheus Certified Associate (PCA) |
 
-**Later:** Kubernetes in depth, observability and security, growing towards DevOps, platform, SRE and DevSecOps.
+**Then, from my first cloud job:**
+
+| Phase | Focus | Certifications |
+|---|---|---|
+| 3 | Kubernetes on AWS, GitOps and security | CKS · AWS Certified DevOps Engineer – Professional |
+| 4 | DevSecOps on AWS | CompTIA Security+ · HashiCorp Vault Associate · Kyverno Certified Associate · AWS Certified Security – Specialty |
+| 5 | Site reliability engineering | OpenTelemetry Certified Associate |
+| 6 | Platform engineering | Istio · Argo · Backstage · Certified Cloud Native Platform Engineer |
 
 ✅ done · 🔄 in progress · ⬜ next
 
